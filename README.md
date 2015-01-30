@@ -1,5 +1,7 @@
 # University of Victoria - Seng371 - Software Evolution Class Project 1
 
+------------------------------------------
+
 This repo was built in order to meet project requirements for SEng 371 - Software (R)Evolution. Taught in January 2015 by Yvonne Coady at the University of Victoria. COPYRIGHT:  http://creativecommons.org/licenses/by-nc-nd/4.0/
   > You can copy and redistribute this project & report in any medium or format.
   
@@ -12,6 +14,14 @@ This repo was built in order to meet project requirements for SEng 371 - Softwar
 Evolution of a Programming Language: PYTHON
 ------------------------------------------
 My intention with this project is to attempt to map the evolution of Python. This will be an in-depth project of one codebase, of which I will define 3 methodologies and metrics.
+
+Big question: How has Python become more powerful?
+
+Jugding the power of a language is a tough thing to do, so I'm going to attempt to answer it by looking at 3 key pieces of a language: its source code, the program built using the language, and its surrounding community (sociotechnical environment).
+
+Overarching tools I'll be using:
+
+Trello (project management)
 
 ==============================================================
 
@@ -26,11 +36,9 @@ My intention with this project is to attempt to map the evolution of Python. Thi
   
   A.3) Analyze data and tabularize: LOC, Release dates, Number of items fixed, number of items added.
 
-  B.1) Look at PyPi (https://pypi.python.org/pypi), the Python Package Index
+  B.1) Look at PyPi (https://pypi.python.org/pypi), the Python Package Index; find out when/how often new packages were added, including what kind of functionality they added. If stats/file sizes are included in their official listing, I can find out if these numbers are increasing over time.
   
-  B.2) Find out when/how often new packages were added, including what kind of functionality they added. If stats/file sizes are included in their official listing, I can find out if these numbers are increasing over time.
-  
-  B.3) Analyze data. First determine, for each Month/Year, the number of packages available. I should be able to graph these results. Second, tabularize: Day/Month/Year, Package Name, Package size, LOC, Functionality. 
+  B.2) Analyze data. First determine, for each Month/Year, the number of packages available. I should be able to graph these results. Second, tabularize: Day/Month/Year, Package Name, Package size, LOC, Functionality. 
   
   From both sets of information, I should be able to infer whether or not the language has grown more powerful with the addition of more features by meeting needs of users, or if everything is simply a result of fixing bugs, and Python is in fact just as useful/useless as it was when it was first released.
 
