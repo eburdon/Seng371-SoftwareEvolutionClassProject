@@ -17,7 +17,7 @@ My intention with this project is to attempt to map the evolution of Python. Thi
 
 Big question: How has Python become more powerful?
 
-Jugding the power of a language is a tough thing to do, so I'm going to attempt to answer it by looking at 3 key pieces of a language: its source code, the program built using the language, and its surrounding community (sociotechnical environment).
+Judging the power of a language is a tough thing to do, so I'm going to attempt to answer it by looking at 3 key pieces of a language: its source code, the program built using the language, and its surrounding community (sociotechnical environment).
 
 Overarching tools I'll be using:
 
@@ -49,7 +49,7 @@ Trello (project management)
 
 ==============================================================
 
-2. <b>Complexity of the Language - <i>Projects</i></b> 
+2. <b>Complexity of the Language - <i>Code bases (supported Projects)</i></b> 
 
 >How have the <i>kinds</i> of projects Python can support, evolved? Have they gone from simple to more complex? Are programs with fewer LOC simpler (when written in Python)? Are users able to accomplish more with Python now than before?
 
