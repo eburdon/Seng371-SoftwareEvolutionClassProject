@@ -1,0 +1,42 @@
+http://python-history.blogspot.ca/2009/01/brief-timeline-of-python.html
+
+http://python-history.blogspot.ca/2009/01/introduction-and-overview.html
+
+"The Zen of Python"
+    https://www.python.org/dev/peps/pep-0020/ -- summarizes the "essential truths of Python"
+
+> Named after Monty Python
+
+> Conceived in late 1980s; Implementation started in 1989 by Guido Van Rossum (Benevolent Dictator for Life {BDFL})
+RELEASED 16 OCTOBER 2000 (11 years) with major features such as garbage collection and support for unicode & after shift to transparent, community-backed process
+
+> Successor to ABC programming language capable of exception handling
+
+> Development of python was happening when many other languages - Ruby & Perl (& gaining popularity)
+
+> Currently one of the most popular DYNAMIC PROGRAMMING LANGUAGES
+
+> Viewed as a "scripting language" but was really a general-purpose programming language
+
+> "The genesis of Python"
+
+** Glossary:
+    > Dynamic Programming Language: high-level prog language which, at runtime, executes many common programming behaviors that static languages would perform during compilation
+
+Release dates for the major and minor versions:[8]
+Python 1.0 - January 1994
+    Python 1.5 - December 31, 1997
+    Python 1.6 - September 5, 2000
+Python 2.0 - October 16, 2000
+    Python 2.1 - April 17, 2001
+    Python 2.2 - December 21, 2001
+    Python 2.3 - July 29, 2003
+    Python 2.4 - November 30, 2004
+    Python 2.5 - September 19, 2006
+    Python 2.6 - October 1, 2008
+    Python 2.7 - July 3, 2010
+Python 3.0 - December 3, 2008
+    Python 3.1 - June 27, 2009
+    Python 3.2 - February 20, 2011
+    Python 3.3 - September 29, 2012
+    Python 3.4 - March 16, 2014
