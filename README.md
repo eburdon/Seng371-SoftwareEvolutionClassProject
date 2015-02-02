@@ -1,6 +1,8 @@
 # University of Victoria - Seng371 - Software Evolution Class Project 1
 
 ------------------------------------------
+![You're a parser tongue, Harry!](https://i.imgur.com/LdJ7pZo.jpg)
+------------------------------------------
 
 This repo was built in order to meet project requirements for SEng 371 - Software (R)Evolution. Taught in January 2015 by Yvonne Coady at the University of Victoria. COPYRIGHT:  http://creativecommons.org/licenses/by-nc-nd/4.0/
   > You can copy and redistribute this project & report in any medium or format.
