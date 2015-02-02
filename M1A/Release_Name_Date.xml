@@ -1,0 +1,628 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Karmaqueenn</Author>
+  <LastAuthor>Erika Burdon</LastAuthor>
+  <Created>2015-02-02T05:41:59Z</Created>
+  <LastSaved>2015-02-02T06:07:39Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8505</WindowHeight>
+  <WindowWidth>18195</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#11A611"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"
+     ss:Color="#11A611"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"
+    ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"
+    ss:Italic="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="justNameDate">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="74" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="76.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="71.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="216.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Version</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Release Date</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">File Size (Bytes) [Gzipped source tarball] {tgz}</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-12-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">16657930</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.4.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-10-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19257270</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-10-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16887234</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-10-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13135239</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-07-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14846119</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14809415</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.4.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-05-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19113124</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.4.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-03-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19222299</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-03-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16881688</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2014-02-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16843278</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-11-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16808057</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-11-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14725931</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-10-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12700000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">** No data on src page; clicked link</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-05-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16530940</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-05-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13123323</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-05-12T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14492759</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-04-06T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14489063</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-04-06T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13121703</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2013-04-06T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16521332</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.3.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2012-09-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16327785</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2012-04-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12787688</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2012-04-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13282574</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.1.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2012-04-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11798798</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2012-04-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14135620</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-09-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12732276</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-07-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12713430</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-06-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14091337</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.1.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-06-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11795512</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-06-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13322372</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-05-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">11100000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">** No data on src page; clicked link</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.2.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2011-02-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12673043</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.1.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-11-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11769584</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-11-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14058131</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-08-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13318547</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.7.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-07-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14026384</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.1.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-03-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11661773</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-03-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13209175</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2010-01-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">11100000</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2009-10-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13322131</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2009-10-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13319447</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.1.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2009-08-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11525876</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.1.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2009-06-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11359455</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2009-04-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13281177</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.0.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2009-02-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11258272</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">11604497</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-12-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9550168</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-12-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">11605520</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-12-04T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13046455</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 3.0.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-12-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11191348</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.6.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-10-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">13023860</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-03-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9625509</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-03-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">8694077</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2008-02-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">11584231</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2007-04-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">11060830</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2006-11-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8610359</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2006-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9531474</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.5.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2006-09-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">11019675</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2006-04-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9348239</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2005-09-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9239975</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2005-03-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9219882</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2005-02-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8535749</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.4.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2004-11-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9198035</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2004-05-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8502738</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2003-12-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8491380</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2003-10-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8459427</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2003-09-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8558611</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.3.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2003-07-29T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8436880</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.2.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2003-05-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">6709556</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.2.2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2002-10-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6669400</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.2.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2002-04-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6535104</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.1.3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2002-04-09T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6194432</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.2.0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2001-12-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6542443</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Python 2.0.1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2001-06-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3900000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">** No data on src page; clicked link</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>-3</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

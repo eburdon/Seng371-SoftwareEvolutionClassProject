@@ -32,7 +32,8 @@ def main():
     assert 'Python.org' in DRIVER.title
     
     # Find number of releases (to date)
-    listDownloads = DRIVER.find_elements(By.LINK_TEXT,"Release Notes")
+    # listDownloads = DRIVER.find_elements(By.LINK_TEXT,"Release Notes")
+    listDownloads = DRIVER.find_elements(By.LINK_TEXT,"Download")
     linksCount = len(listDownloads)
     print linksCount
     
@@ -40,12 +41,16 @@ def main():
         # Get actual url links for each item found in above list
         merp = item.get_attribute("href")
         if "raw-file" in merp:
+            print merp
             parse_raw_text(DRIVER)
+            print ""
         else:
+            print merp
             parse_web_page(DRIVER)
+            print ""
 
     # Open & process each in order
-    listDownloads[0].click()  # Raw text file
+    # listDownloads[0].click()  # Raw text file
     # listDownloads[1].click()    # Fancy web page sample
         
 if __name__ == "__main__":
