@@ -3,8 +3,12 @@ Tools Used:
 Import.io
 Python
 Excel
+Gource (technically...)
 
 ==============
+
+Python source file download size
+--------------------------------
 Here I tried to somehow create a script to find all the python tarball location links, and find the filesize of the downloads. 
 Unfortunately, basically every other Python download page is formatted slightly different than the other, so this didn't work 
 too well. I managed to return a Microsft Excel file of the version name and their release date; I will have to determine and 
@@ -22,3 +26,15 @@ version, were often missing.
 
 There are 73 versions released so far, Most recently Decemeber 12, 2014. Several are now out-of-date and/or have been 
 superseded by following versions.
+
+History of Python
+-----------------
+I found a GOURCE video of the evolution of Python projects - it is clear to see the number of developers, files, and
+complexity increasing. Screenshots have been included in images/
+
+Video src:  https://www.youtube.com/watch?v=cNBtDstOTmA
+
+
+Current: Details of Growth
+--------------------------
+Will probably work with MonkeyLearn to get details of each release
