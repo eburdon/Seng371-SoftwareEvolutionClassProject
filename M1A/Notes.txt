@@ -2,14 +2,23 @@ Tools Used:
 
 Import.io
 Python
+Excel
 
 ==============
-Here I tried to somehow create a script to find all the python tarball location links, and find the filesize of the downloads. Unfortunately, basically every other Python download page is formatted slightly different than the other, so this didn't work too well. I managed to return a Microsft Excel file of the version name and their release date; I will have to determine and enter the file sizes manually.
+Here I tried to somehow create a script to find all the python tarball location links, and find the filesize of the downloads. 
+Unfortunately, basically every other Python download page is formatted slightly different than the other, so this didn't work 
+too well. I managed to return a Microsft Excel file of the version name and their release date; I will have to determine and 
+enter the file sizes manually.
 
-If I had more time, I would have dedicated more time into making a script for each page variant, as well as some sort of handling for the pages that didn't include the file size download info right on the source page. Unfortunately in this case, manual (paired with a nice white wine) was the best path.
+If I had more time, I would have dedicated more time into making a script for each page variant, as well as some sort of 
+handling for the pages that didn't include the file size download info right on the source page. Unfortunately in this case, 
+manual (paired with a nice white wine) was the best path.
 
-On a happier note, Import.Io pushed me into storing my data in Excel. This program includes graphing capabilities, and I was able to easily chart my results.
+On a happier note, Import.Io pushed me into storing my data in Excel. This program includes graphing capabilities, and I was 
+able to easily chart my results.
 
-The tgz, gz compress tarball was the only version download type available consistently across all versions - other compressed version, were often missing.
+The tgz, gz compress tarball was the only version download type available consistently across all versions - other compressed 
+version, were often missing.
 
-There are 73 versions released so far, Most recently Decemeber 12, 2014. Several are now out-of-date and/or have been superseded by following versions.
+There are 73 versions released so far, Most recently Decemeber 12, 2014. Several are now out-of-date and/or have been 
+superseded by following versions.
