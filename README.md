@@ -117,3 +117,11 @@ February 21/22 - Ensure all data is tabularized; If a report is required, constr
 ------------------------------------------
 Thanks for Reading! Contact me anytime at eburdonGIT@gmail.com
 
+===========================================
+
+# Lab #4 - Data Collection and Experimentation
+https://github.com/ycoady/UVic-Software-Evolution/issues/10
+
+1. Assertion: Sizes of source code/files (release) increase over time
+2. Data collection: Parse the python documentation for release names, dates, and Gzipped tarball downloads
+3. See [graphed data here (Visualized with Excel)](M1A/Images/TrendGraph_PythonVersionSize.png)
