@@ -1,0 +1,69 @@
+PyPi Statistics!
+
+08/02/2015: 54,986 packages registered on the PyPi index; 1,965,678,267 downloads
+
+Hosts third party modules
+-----------------------------
+
+PyPi website was largely disorganized for research - its built for
+finding the package you need quickly; with all information about it
+
+METHOD:
+    I used python packages SCRAPY and JSON to get the job done!
+    First, I used SCRAPY to scrape the entire package index listing (60977 active package links). I followed each of those links to the package information page where I hoped to parse package history/upload dates and upload versions.
+    
+    Turns out, the tabular data included on those pages are not history of the file (similar to the python download page, where each row was a previous version of the product), it simply listed all the available versions of the downloaded (e.g., different compressioni/tarball types).
+    
+    So I parsed all information from the table into the JSON file but, only took the download date and size of the "Source" type, which was a consistent gz tarball download, same format as the python source code download. With this information, I hope to graph package size vs upload date
+    and see the older ones be smaller than the more recent.
+    
+    Flaws: I'm unable to track the evolution of each package like I originally intended. I wanted to be able to include information about how packages grow with each update, ordered by their date. I.e., were most updated in sync with a new python release? Additionally, there was not information on the page to gather anything worthwhile about the popularity of each package. The information page included number of downloads (all versions) in the last day, week, and month, but unfortunately nothing long term. However, from the PyPi rankings page, http://pypi-ranking.info/alltime, users are able to determine the most popular packages of all time or of the current week. This information was not included in the report as it felt it added no value.
+    
+    NOTE: If you visit a particular package on their allistings, you can see a graph history of the number of downloads vs time.
+    
+        * Compare the top 20 to base 20?
+        ** IGNORE ALL WITH '0' DOWNLOADS (needed to have at least 5 downloads)
+        
+        TOP 20:                  SIZE (KB)
+            distribute          141
+            virtualenv          * 1 MB
+            setuptools          620
+            certifi             ... TO BE CONTINUED LATER
+            requests
+            boto
+            wincertstore
+            pip
+            six
+            pbr
+            python-dateutil
+            lxml
+            nose
+            simplejson
+            pika
+            Jinja2
+            MarkupSafe
+            docutils
+            pytz
+            PyYAML
+        
+        WORST 20:
+            bitquant
+            Flask-Sillywalk
+            larry_nester
+            hcpsdk
+            libres
+            ajenti.plugin.filemanager
+            ayame
+            gentle_django_mongo
+            CharByCharPrinter
+            dionepaa
+            fitnoise
+            JSTinteract
+            cheif-james
+            egnyte
+            atomicwires
+            fleetmonger
+            celery-queued-once
+            htmd
+            b2gperf-v2.1
+            httpie-http2
