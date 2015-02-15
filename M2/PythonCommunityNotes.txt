@@ -67,3 +67,14 @@ METHOD:
             htmd
             b2gperf-v2.1
             httpie-http2
+
+            
+    ** TODAY: Graphed the data, upload date vs number of instances
+    (i.e., to try and find when the most popular times were)
+    
+    Formatted using jsonhandler.py
+    Copied into excel; split text into columns
+    Graphed!
+    
+    Most common:
+    ('2015-02-12', 277), ('2015-02-09', 251), ('2015-02-11', 251)
