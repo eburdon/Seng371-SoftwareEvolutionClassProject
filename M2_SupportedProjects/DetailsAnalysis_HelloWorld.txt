@@ -1,0 +1,72 @@
+As a basic example, lets look at the differences between the classic "Hello World" program in C and Python.
+
+MINIMAL SOURCE CODE STATS: 
+(e.g., uncessary white space removed)
+
+-- C --
+LOC:                            5
+Num non-alpha characters:       16
+Num keywords:                   9
+
+
+
+-- Python --
+LOC:                            1
+Num non-alpha characters:
+Num keywords:
+
+EXECUTION STATS:
+
+-- C --
+# Commands to go from raw source file to executable?    1 - 3
+# Required Files:   2 - source, object, .exe
+Time:               0.05s
+
+-- Python --
+# Commands to go from raw source file to executable?    1
+# Required Files:   1 - source
+Time:               0.22s
+
+
+* What's the significance of this?
+
+We've shown that Python is simpler than the powerful C language - it's less verbose, needs fewer keywords and fewer lines, but the execution time is nearly four times as long! This is because Python compiles and runs at the same time.
+
+* Why is that significant for showing the complexity of Python?
+
+Directly, it shows that Python source codes are simple. Python has an advantage over C such that it's easy to implement simple tasks. Indirectly, it shows how much effort is "Behind the Scenes."
+
+C has been around since the early 1970s, and, in addition to its ubiquity, it's low-level construction can basically support everything. It's portable, great for hardware and embedded systems, and fast.
+
+Python however, followed in the late 1980s. It was created by Guido Van Rossum because he had "a number of gripes about the ABC language, but also liked many of its features." He wanted greater extensibility. In addition, he wanted a better way to do system adminsitration than C or Bourne again scripts.
+
+So how has Python evolved from a scripting language to a general purpose platform?
+
+PURPOSE OF METHODOLGY 2:
+
+Originally, the purpose of this methodology was to find and compare the source codes of similar or identical programs written in C and Python, like I've done above. However, I realized this would contribute nothing to determining how Python itself has evolved - it would only compare C to Python. Instead, I moved to finding similar projects on GitHub, using GOURCE and other tools on their files to attempt to find out if they evolve differently.
+
+In addition, Part 2 hopes to investigate the TYPES of projects supported by Python. That is, answer the question above.
+
+====================
+
+I don't really have any hard statistics - this method wound up relying on anecdotes and blog posts. From these, it's clear that while Python started out as a scripting language, it can now support:
+    * web applications
+    * Games
+    * Software development / management
+    * Object databases
+    * Network Programming
+    
+Through reading a variety of forums (stackoverflow, success stories), I have come to belief that the core python language has not neccearily evolved, so much as its potential has been realized. Python has simply been chosen as the development language in a variety of platforms and it has /worked/. It's shifted from being used in simple system administration to being used as the base code.
+
+Reddit for example, was originally written in LISP. It was switched to Python after the lack of libraries.
+
+As we saw above, a huge advantage of Python is that it's easy to read (clear code), development is fast, and the python community is so-well formed, there's plenty of help to be found, and other projects to be referenced.
+
+One of the reasons why Python has spiked in popularity may be its "learning curve - or lack thereof. It's easy to teach and even easier to learn! In fact, in July 2014, Python passed Java in being the popular language for teaching intoductory computer science in U.S. departments.
+
+SOURCES:
+python.org/about/success
+docs.python/org/2/faq/general.html#why-was-python-created-in-the-first-place
+redditblog.com/2005/12/on-lisp.html
+cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext
