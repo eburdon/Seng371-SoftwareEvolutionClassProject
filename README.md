@@ -125,3 +125,16 @@ https://github.com/ycoady/UVic-Software-Evolution/issues/10
 1. Assertion: Sizes of source code/files (release) increase over time
 2. Data collection: Parse the python documentation for release names, dates, and Gzipped tarball downloads
 3. See [graphed data here (Visualized with Excel)](M1A/Images/TrendGraph_PythonVersionSize.png)
+
+
+
+
+===========================================
+# Project repo should have the following components by END OF DAY, FEB 23
+TODO: Reformat this ReadMe file to direct reader to each part
+
+1. Question about software evolution you are setting out to answer (Why important)
+2. The Methodolgy using to answer (explanation) (+ link to tools, copy of source code(s), instructions on how to run, link/list of data sources, list of metrics used and how they contribute to the answer)
+3. Results (must be reproducable!; include RAW results, aggregates visualizations...)
+4. Analysis (answer to question based on RESULTS; + Threats to validity and future work)
+5. Project mangament documentation - Milestones and timelines (how met/work log; roles)
