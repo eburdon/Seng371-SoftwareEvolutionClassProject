@@ -1,15 +1,31 @@
-# University of Victoria - Seng371 - Software Evolution Class Project 1
+# University of Victoria
+# Seng371 - Software Evolution 
+# Project 1
+
+By:     Erika Burdon
 
 ------------------------------------------
 ![You're a parser tongue, Harry!](https://i.imgur.com/LdJ7pZo.jpg)
 ------------------------------------------
 
-This repo was built in order to meet project requirements for SEng 371 - Software (R)Evolution. Taught in January 2015 by Yvonne Coady at the University of Victoria. COPYRIGHT:  http://creativecommons.org/licenses/by-nc-nd/4.0/
+This is my project repository deliverable for Project 1 as assigned in Seng 371 - Software Evolution at the University of Victoria, taugh by Yvonne Coady.
+
+COPYRIGHT:  http://creativecommons.org/licenses/by-nc-nd/4.0/
   > You can copy and redistribute this project & report in any medium or format.
   
   > You may NOT modify (remix or transform) the material and distribute it or use the material for commercial purposes.
   
   > You must give appropriate credit.
+  
+------------------------------------------
+
+This Repo contains:
+-------------------
+* My Evolutionary question
+* Description of my methodologies using to answer my question
+* Results of my research
+* Discussion and analysis (answer & future work)
+* Project management details
 
 ------------------------------------------
 
