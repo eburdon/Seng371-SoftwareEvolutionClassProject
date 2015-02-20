@@ -1,3 +1,7 @@
+# Abstract
+
+Method two intends to examine the code bases, or evolution of supported python projects. Unable to find significant hard data, I researched blog posts and trend graphs to attempt to show how python projects have evolved over time. This led to research into the growing popularity of the language as more packages were added as they were in demand - more packages meant more use and therefore, "evolution."
+
 As a basic example, lets look at the differences between the classic "Hello World" program in C and Python.
 
 MINIMAL SOURCE CODE STATS: 
@@ -30,7 +34,10 @@ Time:               0.22s
 
 * What's the significance of this?
 
-We've shown that Python is simpler than the powerful C language - it's less verbose, needs fewer keywords and fewer lines, but the execution time is nearly four times as long! This is because Python compiles and runs at the same time.
+We've shown that Python is simpler than the powerful C language - it's less verbose, needs fewer keywords and fewer lines. This is a valid reason why Python is being chosen over a static languages, despite the execution time being nearly four times as long! These stats contribute to the reasoning behind the increased acceptance and use of Python. It is a natural to arrive at the idea that, with more and more use, more packages are being developed for python, spurring its evolution, greater use, so on and so forth.
+
+
+Comapred to other languages, Python is 5-10x faster to develop in than another language like Java. That is, you can have one developer build a feature in Python in 1 day vs over 5 days.
 
 * Why is that significant for showing the complexity of Python?
 
@@ -40,7 +47,7 @@ C has been around since the early 1970s, and, in addition to its ubiquity, it's 
 
 Python however, followed in the late 1980s. It was created by Guido Van Rossum because he had "a number of gripes about the ABC language, but also liked many of its features." He wanted greater extensibility. In addition, he wanted a better way to do system adminsitration than C or Bourne again scripts.
 
-So how has Python evolved from a scripting language to a general purpose platform?
+>> So how has Python evolved from a scripting language to a general purpose platform?
 
 PURPOSE OF METHODOLGY 2:
 
@@ -63,10 +70,47 @@ Reddit for example, was originally written in LISP. It was switched to Python af
 
 As we saw above, a huge advantage of Python is that it's easy to read (clear code), development is fast, and the python community is so-well formed, there's plenty of help to be found, and other projects to be referenced.
 
-One of the reasons why Python has spiked in popularity may be its "learning curve - or lack thereof. It's easy to teach and even easier to learn! In fact, in July 2014, Python passed Java in being the popular language for teaching intoductory computer science in U.S. departments.
+One of the reasons why Python has spiked in popularity may be its learning curve - or lack thereof. It's easy to teach and even easier to learn! In fact, in July 2014, Python passed Java in being the popular language for teaching intoductory computer science in U.S. departments. [QUOTE]
+
+* What evidence is there of Python being chosen over other languages?
+
+To see python's current ranking among languages on GitHub, check this out (Top 100 languages):
+
+http://sogrady-media.redmonk.com/sogrady/files/2014/01/lang-rank-114-wm.png
+
+Python ranks in at #5, behind JavaScript, Java, PHP, and C#. Of course, this is just immediate, 2014-exclusive results. How has Python increased over time? With that slick sqeue, I've found some interesting graphs for you! 
+
+> Python in a specific domain (Data science)
+
+David Smith wrote post on revolutionanalytics.com, commenting on how Python is "evolving beyond a data /processing/ tool to data /analysis/ tool." Not by changing the source code however - this was done via the "Pandas," a Python data analysis library (a downloadable package). He found a graph charting the number of questions about Python and R on stack overflow as a marker for how active the language is. I've included it here below:
+
+http://revolution-computing.typepad.com/.a/6a010534b1db25970b019b0226c0f2970b-pi
+
+This graph clearly outlines how Python's general-purpose capabilities is gaining power over R's specific domain tools. Using r for data analytics requires special training - its not as easy to read and is more difficult to use when compared against Python.
+
+Of course, this graph, blog, and related posts only discuss the use of Python in Data Science. More research will have to be done into other specific domains, and Python as a whole.
+
+> Python demand - Web development
+
+Another interesting thing to look at in order to gauge the acceptance of Python is job demand - has the number of employers looking for Python experience increased? I've included a graph below of how Python is competeing against other web development languages from indeed.com:
+
+http://www.experfy.com/blog/python-data-science/
+
+
 
 SOURCES:
 python.org/about/success
 docs.python/org/2/faq/general.html#why-was-python-created-in-the-first-place
+
 redditblog.com/2005/12/on-lisp.html
+
 cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext
+
+http://blog.revolutionanalytics.com/2013/12/r-and-python.html
+
+http://www.experfy.com/blog/python-data-science/
+
+http://redmonk.com/sogrady/2014/01/22/language-rankings-1-14/
+
+http://datavirtualizer.com/popularity-vs-productivity-vs-performance/
+
