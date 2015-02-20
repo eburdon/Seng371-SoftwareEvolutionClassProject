@@ -42,8 +42,11 @@ Instead of looking at a code base, I wanted to attempt to study the evolution of
 My question: <b>"How has Python become more powerful over time?"</b>
 
 I have split my question into three ideas, each of which I believe contributes to the strength of a language.
+
 1. Source Code (core; complexity of the language)
+
 2. Supported Projects
+
 3. Community (sociotechnical environment)
 
 They each define some smaller questions their results hope to answer. This README file only contains a brief overview of each methodology - please visit folders M1\_ComplexityLanguage, M2\_SupportedProjects, and M3\_Community for step-by-step explanations of the exact steps I took in each one. This will include any source files, compile/run instructions, a list of links to each tool I used, a list of metrics, and a list of sources.
@@ -74,9 +77,9 @@ SUMMARIZING PARAGRAPH
 
 * <b>Use of the Language - <i>Community</i></b> 
 
-[Part 3](www.google.ca)
-
 >How has the Python community grown? Why has this happened?
+
+[Part 3](www.google.ca)
 
 SUMMARIZING PARAGRAPH
 
@@ -96,6 +99,8 @@ Trello: Project planning tool that organizes tasks into cards on a board.
 
 Availble at: [trello.com](https://trello.com/)
 
+------------------------------------------
+
 * Milestones:
 
 January 30 - Finalize questions, methodologies, and tools - make sure they're reasonable!
@@ -109,6 +114,8 @@ Week of: February 15 - Begin & complete "Use of the Language - Community"
 February 22 - Ensure all data is compiled into repository. Prepare repo for submission
 
 <b>February 23</b> - <b>Project Due Date!</b> Hand in results
+
+------------------------------------------
 
 * Some obstacles
 
