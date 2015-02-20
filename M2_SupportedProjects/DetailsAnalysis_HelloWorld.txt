@@ -59,6 +59,9 @@ In addition, Part 2 hopes to investigate the TYPES of projects supported by Pyth
 
 I don't really have any hard statistics - this method wound up relying on anecdotes and blog posts. From these, it's clear that while Python started out as a scripting language, it can now support:
     * web applications
+    * Gui development
+    * scientfic and Numeric processing
+    * system adminstration
     * Games
     * Software development / management
     * Object databases
