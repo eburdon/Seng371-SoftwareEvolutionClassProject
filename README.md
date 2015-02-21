@@ -54,11 +54,15 @@ They each define some smaller questions their results hope to answer. This READM
 Overview of Methodologies
 ------------------------------------------
 
+This README section gives a brief overview of each methodology. Detailed results (such as RAW files and some visualizations) 
+and analysis, as well as future work are discussed only in the appropriate readme file. An overarching discussion and 
+analysis of the project can be found in this file.
+
 * <b>Complexity of the Language - <i>Source code</i></b> 
 
 >A question or two I can answer?
 
-[Part 1](www.google.ca)
+[Methodology 1 README](www.google.ca)
 
 SUMMARIZING PARAGRAPH
 
@@ -69,7 +73,7 @@ SUMMARIZING PARAGRAPH
 >How have the <i>kinds</i> of projects Python can support, evolved? Are users able to accomplish more with Python now than 
 before?
 
-[Part 2](www.google.ca)
+[Methodology 2 README](www.google.ca)
 
 SUMMARIZING PARAGRAPH
 
@@ -79,7 +83,7 @@ SUMMARIZING PARAGRAPH
 
 >How has the Python community grown? Why has this happened?
 
-[Part 3](www.google.ca)
+[Methodology 3 README](www.google.ca)
 
 SUMMARIZING PARAGRAPH
 
@@ -88,7 +92,12 @@ SUMMARIZING PARAGRAPH
 
 Results
 ------------------------------------------
-Include RAW results; visualizations
+Overarching discussion; include some key visualization
+
+How is my project question answered?
+
+Future work?
+
 
 Project Management - self-directed project
 ------------------------------------------
