@@ -132,9 +132,9 @@ Graph 1: Trend graph of Python core source code download sizes
 
 <b>Part B</b>
 
-TEXT: Number of uploads per unqiue date
+TEXT: Number of uploads per unique date
 
-![Graph 2](./2_PythonPackages/Images/chart_upDatesvsNumberOf.png)
+![Graph 2](./2_PythonPackages/Images/chart_upDatsvsNumberOf.png)
 Graph 2:
 
 TEXT: Sizes of total uploads per unique date
