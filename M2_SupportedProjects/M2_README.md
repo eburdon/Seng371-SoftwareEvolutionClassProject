@@ -31,12 +31,36 @@ Sources
 
 [Python success stories](https://www.python.org/about/success/)
 
+[Hello World - Python source file](./Source/Hello_World.py)
+
+[Hello World - C source file](./Source/HelloWorld.c)
+
+[Hello World - C object file](./Source/HelloWorld.o)
+
+[Hello World - C executable file](./Source/HelloWorld.exe)
+
+[Timing script](./Source/time_HelloWord.bat)
+
 ----------
 
 Results
 ----------
 
 Texty text text
+
+![Graph 1](./Images/graph_pythonVSractivity.png)
+
+Graph 1: The number of stack overflow tags of Python, R vs time
+
+![Graph2](./Images/jobgraph_python_weblanguages.png)
+
+Graph 2: Trend graph depicting employer demand of web languages
+
+
+![Graph 2](./Images/productivity.png)
+
+Graph 3: Model of project development time per language
+
 
 ----------
 
