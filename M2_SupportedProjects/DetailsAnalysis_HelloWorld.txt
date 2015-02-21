@@ -1,6 +1,3 @@
-# Abstract
-
-Method two intends to examine the code bases, or evolution of supported python projects. Unable to find significant hard data, I researched blog posts and trend graphs to attempt to show how python projects have evolved over time. This led to research into the growing popularity of the language as more packages were added as they were in demand - more packages meant more use and therefore, "evolution."
 
 As a basic example, lets look at the differences between the classic "Hello World" program in C and Python.
 
@@ -103,6 +100,7 @@ http://www.experfy.com/blog/python-data-science/
 
 SOURCES:
 python.org/about/success
+
 docs.python/org/2/faq/general.html#why-was-python-created-in-the-first-place
 
 redditblog.com/2005/12/on-lisp.html
