@@ -1,28 +1,4 @@
-Unfortunately, I ran into the same issue here than I ran into with methodology two -- No hard numbers!
-
-* Who uses Python? How has this changed?
-
-I signed up for the Python Community (KarmaQueenn). I naively thought that you would/could create a profile which may have included information such as what kind of person you were: student, front-end developer, enthusiast, mature. From this data, I intended to parse the number of academic users (students/teachers), professionals (working for established company), general public (young/mature adults, etc.). This information was not available.
-
-What I did discover though, was that there is an official Python conference, PyCon every year, in a vareity of countries. I chose to look at the numbers for the most official one, the conference that started in the United States, and is now hosted in Canada. Here are the attendance numbers and locations:
-
-Year    Location            Num Attendees
-2003 – Washington, D.C. - 200 
-2004 – Washington, D.C. - 300 
-2005 – Washington, D.C. - 400 
-2006 – Dallas, TX       - 400 
-2007 – Dallas, TX       - 500 
-2008 – Chicago, IL      - 1000 
-2009 – Chicago, IL      - 900 
-2010 – Atlanta, GA      - 1000 
-2011 – Atlanta, GA      - 1400 
-2012 – Santa Clara, CA  - 2300 
-2013 – Santa Clara, CA  - 2500 
-2014 – Montreal, QC     - 2500
-
-As you can see, the number of people actively particpating in the python community is consistently growing, and we can assume that they are making significant contributions toward the language. However, this doesn't give us any insight into who the users of the community really are, only that their numbers are increasing.
-
-There is, however, evidence that the computer science/development/coding community as a whole - all languages all over the world - is evolving to include more of the general public, and Python is a part of that! Such is why I believe there is anecdotal, not neccesarily any hard numbers, evidence of the evolution of the Python community from professional/academic developers to the general public. To show this, let's look at some of the big movements towards learning programing languges:
+To show this, let's look at some of the big movements towards learning programing languges:
 
 * Hour of Code - Campaign website
   :: CODE.ORG -- mostly american; can bring in canada
@@ -45,16 +21,3 @@ https://groklearning.com/csedweek/
 Given how recent all this information is, I believe we haven't yet seen any shocking evolutions in the Python community - the effects have yet to be seen. But, more people are learning Python as their first programming language, or just in general. This means the code bases won't be strictly data analysis or professional tools. I believe we'll be more creative projects as time goes on from hobbyists. These things might just change the world! After all, Python can be used to "bridge the gap between abstract computing and real world application" via Raspberry Pi. I believe we'll see Python's packages continue to develop and generate more functionality and thus move the power of the language forward, and more dominant.
 
 Referring to the graphs in the previous module, I think it's safe to say the number of Python users is increasing
-
-// SOURCES ////////////////////////////////////////
-https://en.wikipedia.org/wiki/Python_Conference
-
-https://us.pycon.org/2015/
-                    * 2014/
-                    * 2013/
-                    * 2012/
-                    * 2011
-               
-http://hourofcode.com/ca
-http://code.org/learn
-https://groklearning.com/courses/
