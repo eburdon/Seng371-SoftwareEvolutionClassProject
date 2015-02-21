@@ -24,9 +24,9 @@ COPYRIGHT:  http://creativecommons.org/licenses/by-nc-nd/4.0/
 This Repo contains:
 -------------------
 * My Evolutionary question
-* Description of my methodologies using to answer my question
-* Results of my research
-* Discussion and analysis (answer & future work)
+* Description of my methodologies using to answer my question (overview and specific)
+* Results of my research (per method)
+* Discussion and analysis (answer & future work; per method)
 * Project management details
 
 ------------------------------------------
@@ -54,36 +54,36 @@ They each define some smaller questions their results hope to answer. This READM
 Overview of Methodologies
 ------------------------------------------
 
-This README section gives a brief overview of each methodology. Detailed results (such as RAW files and some visualizations) 
-and analysis, as well as future work are discussed only in the appropriate readme file. An overarching discussion and 
-analysis of the project can be found in this file.
+This section gives a brief overview of each methodology. Detailed steps, results (such as RAW files and some visualizations),
+analysis and discussion, as well as future work are discussed only in the appropriate readme file.
 
-* <b>Complexity of the Language - <i>Source code</i></b> 
 
->A question or two I can answer?
+<b>Complexity of the Language - <i>Source code</i></b> 
 
-[Methodology 1 README](www.google.ca)
+>How has Python grown? Can we determine if it has evolved into a more complex core?
+
+[Methodology 1 README](./M1_ComplexityLanguage/M1_README.md)
 
 SUMMARIZING PARAGRAPH
 
 ------------------------------------------
 
-* <b>Supported Projects</b>
+<b>Supported Projects</b>
 
 >How have the <i>kinds</i> of projects Python can support, evolved? Are users able to accomplish more with Python now than 
 before?
 
-[Methodology 2 README](www.google.ca)
+[Methodology 2 README](./M2_SupportedProjects/M2_README.md)
 
 SUMMARIZING PARAGRAPH
 
 ------------------------------------------
 
-* <b>Use of the Language - <i>Community</i></b> 
+<b>Use of the Language - <i>Community</i></b> 
 
 >How has the Python community grown? Why has this happened?
 
-[Methodology 3 README](www.google.ca)
+[Methodology 3 README](./M3_Community/M3_README.md)
 
 SUMMARIZING PARAGRAPH
 
