@@ -43,7 +43,7 @@ Metrics: M1, M2...
 
 ----------------------
 
-Source and generated Raw Files
+Sources and generated Raw Files
 ----------------------
 
 [Gource Video - Evolution of Python](https://www.youtube.com/watch?v=cNBtDstOTmA)
@@ -166,3 +166,11 @@ For future work, I could try to sort the information based on release type, majo
 <b>Part B</b>
 
 The detailed information about each package was not in the format I expected. I thought the table on each page was a history of versions available for that package, similar to how the Python source download page was set up in Part A. My original intention was to map the changes in a few of the most popular packages to show how they have contributed more to Python over time, thus contributing to the overall evolution of the lanugage.
+
+
+-------------------
+
+Future work
+-------------
+
+Texty text text
