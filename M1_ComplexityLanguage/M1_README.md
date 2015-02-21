@@ -1,8 +1,7 @@
-# Methodology 1 - Complexity of the Python Language
+# Methodology 1
+# Complexity of the Python Language
 
-First, a brief history of Python. (There are currently 73 versions).
-
-TEXT TEXT TEXT
+First, a brief history of Python. (There are currently 73 versions); TEXT TEXT TEXT TEXT TEXT
 
 * It can be argued that Python's core code is made of two parts - the ACUTAL core as officially developed by Python, and its packages which can be easily installed onto a machine with <i>Pip</i> or <i>easy install</i>, and imported into a project using keyword <i>import</i>.
 
@@ -15,19 +14,17 @@ TEXT TEXT TEXT
 PART A - Steps for inspecting the Python Source code
 ----------------------
 
-1.1) View Gource video (below) visualizing the commits to the Python source code over time; save some benchmark screenshots
+1.1. View Gource video visualizing the commits to the Python source code over time; save some benchmark screenshots
     
-Link: [Gource video on Python source](https://www.youtube.com/watch?v=cNBtDstOTmA)
-    
-1.2) From the data, infer some intersting points such as the addition of a significant module, extensive refactoring, and trends such as number of developers, files added, etc., etc.
+1.2. From the data, infer some intersting points such as the addition of a significant module, extensive refactoring, and trends such as number of developers, files added, etc., etc.
   
 
 
-2.1) Visit the Python's downloads page (lists a link to every version)
+2.1. Visit the Python's downloads page (lists a link to every version)
     
-2.2) <b>Create a script</b> to parse each version name, upload date, and size of downloadable file
+2.2. <b>Create a script</b> to parse each version name, upload date, and size of downloadable file
 
-2.3) Visualize the version date vs size; infer useful information
+2.3. Visualize the version date vs size; infer useful information
   
 Metrics: M1, M2...
   
@@ -35,61 +32,96 @@ Metrics: M1, M2...
 PART B - Steps for inspecting the Python Package index
 ----------------------
 
-1) Visit the [Python Package Index](https://pypi.python.org/pypi); investigate the number of packages available
+1. Visit the [Python Package Index](https://pypi.python.org/pypi); investigate the number of packages available
 
-2) <b>Create a script</b> to parse each package name, upload date(s), download size(s)
+2. <b>Create a script</b> to parse each package name, upload date(s), download size(s)
   
-2) Analyze and visualize data and infer useful results.  
+3. Analyze and visualize data and infer useful results.  
 
 
 Metrics: M1, M2...
 
 ----------------------
 
-Source Files
+Source and generated Raw Files
 ----------------------
 
-[File1](www.google.ca)
+[Gource Video - Evolution of Python](https://www.youtube.com/watch?v=cNBtDstOTmA)
+
+[Script 1: Source Download Date_Size parser](www.google.ca)
 
 * Run instructions:
 
-Merp merp merp.
+1) Merp merp merp.
 
-[File2](www.google.ca)
+2) Herp herpa derp
+
+[Script 2: Scrapy web crawler to get Python Package information](www.google.ca)
+
+[Script 2: Compiled python file](www.google.ca)
+
+[Scrapy-generated 'resources' file](www.google.ca)
 
 * Run instructions:
 
-Merp merp merp.
+1) Merp merp merp.
 
-----------------------
+2) Herp herpa derp
 
-Raw Files
-----------------------
+3) Run command BLAH produces raw file: [items.json](www.google.ca)
 
-[Script 1 - CSV File](www.google.ca)
+[Script 3: JSON handler - process information from script 2 into text output useable in excel](www.google.ca)
 
-[Script 2 - .json Output](www.google.ca)
+* Run instructions:
+
+1) Merp merp merp.
+
+2) Herp herpa derp
+
+3) THIS produces raw text output of dates and sizes: [Package_dateVSsize](www.google.ca)
+
+4) THIS produces raw text output of number of uploads on each unique dates: [Package_dateVSnumTimes](www.google.ca)
+
+5) THIS produces text output of most and least common upload dates: [Package_dateVSsize](www.google.ca)
+
+[Excel file 1: Tabularized data of download date and size of download](www.google.ca)
+
+[Excel file 2: Tabularized data of TOTAL package upload sizes per unique date](www.google.ca)
+
 
 ----------------------
 
 Results
 ----------------------
 
+Texty text text
 
 Part A
 
 TEXT: Gource visualization chatter
 
 [Screenshot 1](www.google.ca)
+
 [Screenshot 2](www.google.ca)
+
 [Screenshot 3](www.google.ca)
+
 [Screenshot 4](www.google.ca)
 
 TEXT: Trend graph: Python releases (dates) vs size of download - inreasing complexity?
+
 [Graph 1](www.google.ca)
 
 
 Part B:
+
+TEXT: Number of uploads per unqiue date
+
+[Graph 2](www.google.ca)
+
+TEXT: Sizes of total uploads per unique date
+
+[Graph 3](www.google.ca)
 
 
 Discussion and Analysis
