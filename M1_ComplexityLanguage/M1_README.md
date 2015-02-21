@@ -46,47 +46,56 @@ Metrics: M1, M2...
 Sources and generated Raw Files
 ----------------------
 
+<b>Part A</b>
+
 [Gource Video - Evolution of Python](https://www.youtube.com/watch?v=cNBtDstOTmA)
 
-[Script 1: Source Download Date_Size parser](www.google.ca)
+[Script 1: Source Download Date_Size parser](./1_ActualSource/downloadSizeParser.py)
 
-* Run instructions:
-
-1) Merp merp merp.
-
-2) Herp herpa derp
-
-[Script 2: Scrapy web crawler to get Python Package information](www.google.ca)
-
-[Script 2: Compiled python file](www.google.ca)
-
-[Scrapy-generated 'resources' file](www.google.ca)
-
-* Run instructions:
+* Script 1 Run instructions: getting Python release information
 
 1) Merp merp merp.
 
 2) Herp herpa derp
 
-3) Run command BLAH produces raw file: [items.json](www.google.ca)
 
-[Script 3: JSON handler - process information from script 2 into text output useable in excel](www.google.ca)
 
-* Run instructions:
+<b>Part B</b>
+
+[Script 2: Scrapy web crawler to get Python Package information](./2_PythonPackages/dmoz_spider.py)
+
+[Script 2: Compiled python file](./2_PythonPackages/dmoz_spider.pyc)
+
+[Scrapy-generated 'resources' file](./2_PythonPackages/Resources)
+
+* Script 2 Run instructions: getting Python packages information
 
 1) Merp merp merp.
 
 2) Herp herpa derp
 
-3) THIS produces raw text output of dates and sizes: [Package_dateVSsize](www.google.ca)
+3) Run command BLAH produces raw file: [items.json](./2_PythonPackages/Raw/items.json)
 
-4) THIS produces raw text output of number of uploads on each unique dates: [Package_dateVSnumTimes](www.google.ca)
+[Script 3: JSON handler - process information from script 2 into text output useable in excel](./2_PythonPackages/jsonHandler.py)
 
-5) THIS produces text output of most and least common upload dates: [Package_dateVSsize](www.google.ca)
+* Script 3 Run instructions:
 
-[Excel file 1: Tabularized data of download date and size of download](www.google.ca)
+1) Merp merp merp.
 
-[Excel file 2: Tabularized data of TOTAL package upload sizes per unique date](www.google.ca)
+2) Herp herpa derp
+
+3) THIS produces raw text output of dates and sizes: 
+[Package_dateVSsize](./2_PythonPackages/Raw/printOut_dateSizes.txt)
+
+4) THIS produces raw text output of number of uploads on each unique dates: 
+[Package_dateVSnumTimes](./2_PythonPackages/Raw/printOut_dateTimes.txt)
+
+5) THIS produces text output of most and least common upload dates: 
+[Package_dateVSsize](./2_PythonPackages/Raw/printOut_leastMostCommon.txt)
+
+[Excel file 1: Tabularized data of download date and size of download](./2_PythonPackages/Raw_Processed/dates_downloadSizes.xlsx)
+
+[Excel file 2: Tabularized data of TOTAL package upload sizes per unique date](./2_PythonPackages/Raw_Processed/dates_downloads.xlsx)
 
 
 ----------------------
@@ -96,40 +105,52 @@ Results
 
 Texty text text
 
-Part A
+<b>Part A</b>
 
-TEXT: Gource visualization chatter
+TEXT: Gource visualization TEXT
 
-[Screenshot 1](www.google.ca)
+![Screenshot 1](./1_ActualSource/Images/GOURCE_hq_python_0yrs.png)
+Figure 1: Python file structure in 1991; year 0
 
-[Screenshot 2](www.google.ca)
+![Screenshot 2](./1_ActualSource/Images/GOURCE_hq_python_5yrs.png)
+Figure 1: Python file structure in 1996; year 5
 
-[Screenshot 3](www.google.ca)
+![Screenshot 3](./1_ActualSource/Images/GOURCE_hq_python_10yrs.png)
+Figure 1: Python file structure in 2001; year 10
 
-[Screenshot 4](www.google.ca)
+![Screenshot 4](./1_ActualSource/Images/GOURCE_hq_python_15yrs.png)
+Figure 1: Python file structure in 2006; year 15
 
-TEXT: Trend graph: Python releases (dates) vs size of download - inreasing complexity?
+![Screenshot 5](./1_ActualSource/Images/GOURCE_hq_python_20yrs.png)
+Figure 1: Python file structure in 2011; year 20
 
-[Graph 1](www.google.ca)
+TEXT TEXT: Trend graph: Python releases (dates) vs size of download - inreasing complexity?
 
+![Graph 1](./1_ActualSource/Images/TrendGraph_PythonVersionSize.png)
 
-Part B:
+Graph 1: Trend graph of Python core source code download sizes
+
+<b>Part B</b>
 
 TEXT: Number of uploads per unqiue date
 
-[Graph 2](www.google.ca)
+![Graph 2](./2_PythonPackages/Images/chart_upDatesvsNumberOf.png)
+Graph 2:
 
 TEXT: Sizes of total uploads per unique date
 
-[Graph 3](www.google.ca)
+![Graph 3](./2_PythonPackages/Images/chart_uploadSizesVSDate.png)
+Graph 3:
 
 
 Discussion and Analysis
 ----------------------
 
-Part A:
+<b>Part A</b>
 
-Part B:
+Texty text text
+
+<b>Part B</b>
 
 The PyPi website was not build for data analysis and is largely disorganized for efficient research - it is build for finding the package you need (based on name) as quickly as possible.
 
