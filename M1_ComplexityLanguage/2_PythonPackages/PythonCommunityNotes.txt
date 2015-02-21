@@ -12,6 +12,8 @@ METHOD:
     I used python packages SCRAPY and JSON to get the job done!
     First, I used SCRAPY to scrape the entire package index listing (60977 active package links). I followed each of those links to the package information page where I hoped to parse package history/upload dates and upload versions.
     
+    python egg == logical structure
+    
     Turns out, the tabular data included on those pages are not history of the file (similar to the python download page, where each row was a previous version of the product), it simply listed all the available versions of the downloaded (e.g., different compressioni/tarball types).
     
     So I parsed all information from the table into the JSON file but, only took the download date and size of the "Source" type, which was a consistent gz tarball download, same format as the python source code download. With this information, I hope to graph package size vs upload date
