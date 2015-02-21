@@ -1,21 +1,70 @@
- METHODOLOGY:
-  
-  a.1) I need to find two medium-sized programs on GitHub written in two different languages (e.g., Python and C) that achieve the same result (e.g., "Hello, World!")
-  
-  a.2) Compare their LOC - is Python generally simpler in size and verbosity?
-  
-  a.3) I can use GOURCE to compare the structure of the projects to find out: 1. how long it took to build, 2. compare complexity of the structure, and 3. average number of contributing developers. I can then tabularize this data and attempt to find a useful result.
+# Methodology 2
+# Evolution of projects supported by Python
 
-  ** I just discovered that Reddit came online in 2008, and is majority based (~ 57%) in Python. As such, I want to quickly try to chart the number of code bases or significant sized projects (i.e., no small automation scripts) vs time, to see if they have increased
-  
-  b.1) Attempt to search GitHub for number of projects of a certain size written in python (open source); As time goes on, does this number increase? Are the average size of the projects also increasing?
-  
-  b.2) Attempt a google search to find other large projects written in Python.
-  
-  b.3) What types of tools are these? Large scripts, or functional programs?
-  
-  b.3) Are the majority of Python projects open source or private?
+Methodolgy two intends to examine the evolution of code bases/projects supported by Python. 
 
-  TOOLS: (More to come)
-  
-  Source code parser
+My original intention was to search GitHub and SourceForge for two medium-sized programs that accomplished the same task. I 
+intended to parse some information such as lines of code (LOC), use Gource to compare the structure of the projects, and 
+gather other source-file metrics and attempt to extrapolate some useful data. However, I realized that this information would
+not contribute any insight into the evolution of Python, but simply just compare one language against another.
+
+As such, I shifted my search into trying to find how the number of Python projects over time and the types of projects
+developed over time. Unable to find resources to parse significant hard data from, I researched blog posts and trend graphs 
+about the use of Python. 
+
+----------
+
+Steps
+-----
+
+1) Compare two programs in C and Python to determine some key statistical differences between the two; establish why Python is popular to learn and use
+
+2) Read some Python success stories and other Python documentation to determine what kind of projects have been supported using Python
+
+3) Read blog posts and collect graphs to prove increased use of Python over time
+
+
+----------
+
+Sources
+-------
+
+[Python success stories](https://www.python.org/about/success/)
+
+----------
+
+Results
+----------
+
+Texty text text
+
+----------
+
+Discussion and Analysis
+-----------------------
+
+Texty text text
+
+----------
+
+
+Tools
+-------
+
+Texty text text
+
+----------
+
+
+Obstacles
+----------
+
+Texty text text
+
+----------
+
+
+Future Work
+----------
+
+Texty text text
