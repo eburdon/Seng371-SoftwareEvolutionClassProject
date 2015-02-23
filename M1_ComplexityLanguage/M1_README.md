@@ -161,7 +161,7 @@ section.
 Results
 ----------------------
 
-Woo, finally - We reached the result files and explanations for the source code/package inspection. This section includes all useful information returned and discuss what they mean.
+Finally! We've reached the result files (and explanations) for the source code/package inspection. This section includes all useful information returned and discusses what they mean.
 
 ----------------------
 
@@ -218,17 +218,35 @@ NUMBER.
 
 <b>Part B - package index results</b>
 
-Part B used Python package <i>Scrapy</i> (meta-project!) in order to create a web scraper, and required data handling code
+First, some interesting numbers:
 
-This second trend graph attempts to visualize the number of packages upload on each unique upload date. This contributes to my attempt to determine the speed and evaluate the "constant change" criteria of many software projects.
+As of 08/02/2015: 
+
+* 54,986 packages registered on the PyPi index available for download
+
+* 1,965,678,267 downloads by users
+
+To start, I read the PyPi index and tried to get some statistics about the sizes and popularity of certain packages. I later realized that this information would not contribute anything useful toward showing the evolution of Python, but if you're still interested in this information, I've included it [here](./2_PythonPackages/InterestingPopularityNumbers.md).
+
+Following the defined Part B methodolgy (above), I used Python package <i>Scrapy</i> (so meta!) in order to create a web scraper to parse the PyPi index. I then created another Python script to handle the returned JSON data. 
+
+In total, the script iterated over the entire index listing which has approximately 60977 active package links, collecting every package name and URL. It then followed each link to the appropriate package information page to parse the upload date(s) and size(s) of the download.
+
+Graph 2 below visualizes the number of packages uploaded on each unique upload date. I wanted to try and determine the speed/how often new packages are added or updated, which would then the "constant change" evolution criteria of many software projects.
 
 ![Graph 2: Plotting the total SIZE of each upload against the verion's upload DATE](./2_PythonPackages/Images/chart_upDatevsNumberOf.png)
 Graph 2: placeholder
 
-The third graph is similar to graph 2, except where it attempts to plot the total number of Bytes of each day (size vs time) instead of each release. I hoped this graph would contribute to trying to figure out when Python pacakges were added/released - is there more activity now than there was before?
+Unfortunately, this data is not as accurate as I had hoped. I was under the impression that the table included on each package's information page was a history of the package, listing <i>every</i> version, upload date, and size of the package over the years, similar to how the official Python download page is set up. The table actually only lists the most current version available for download the different systems (e.g., win32, win64, or amd64) and/or the different compression types available for download (e.g., gz tarball, etc.). In summart, the PyPi website is largely disorganized for research/historical data - it's built for finding the package you need quickly.
+
+Ultimately, this means that this graph mostly represents the number of most active packages, the ones evolving in line with the Python source.
+
+Graph 3 (below) is similar to graph 2, except where that it plots the total number of Bytes of each day (size vs time) instead of each release. 
 
 ![Graph 3](./2_PythonPackages/Images/chart_uploadSizesVSDate.png)
 Graph 3: placeholder
+
+I generated this because I wanted to see if, as the Python source code grew in size (Graph 1), if the sizes of packages also grew. This graph data had the same issue as graph 2 however, where the parsed information is exclusively the most recent information instead of the history of all packages.
 
 
 Discussion and Analysis
