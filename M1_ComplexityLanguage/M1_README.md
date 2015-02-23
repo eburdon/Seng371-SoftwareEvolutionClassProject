@@ -95,13 +95,13 @@ to simple texts. Due to time limitations and the difficulty of
 working with Selenium, I couldn't make a script to handle
 gathering requirments for the remaining information 
 (release date, name, and size). Instead, I 
-switched to Import.io service. This was the first time I've used the tool; instructions on how I created my script is included [here](./M1_ComplexityLanguage/1_ActualSource/ImportIO_CreateInstructions).
+switched to Import.io service. This was the first time I've used the tool; instructions on how I created my script is included [here](./1_ActualSource/ImportIO_CreateInstructions.md).
 
 <b>Script 1 (Version 2): Run instructions</b>
 
 Import.io API's themselves are not availble to download as a script. That is, you can only execute them to collect their most recent imformation via link. Click [here](https://api.import.io/store/data/af4727c3-172c-4724-8aae-2a08c027aa91/_query?input/webpage/url=https%3A%2F%2Fwww.python.org%2Fdownloads%2F&_user=74da2cd9-e085-4c6c-ae74-816f39e485f3&_apikey=379mdmuoSESoXQu8NdDdK8K3jMl0VNhE7iMaRKc63%2Ft%2FettzhfVRbChxR78S%2BbsyOCq%2FwM8zlqaml%2FDu%2FVk7JQ%3D%3D) for the raw data of my extractor. From the Import.io application, I was able to get my data into an excel file whose steps are detailed below:
 
-1) Clicked "GET API", "TSV", and finally, "download as CSV" (useful data: Number, version, release date) [Image link]().
+1) Clicked "GET API", "TSV", and finally, "download as CSV" (useful data: Number, version, release date) ([Screenshot](./1_ActualSource/Images/ImportIO/3_importIO.png)).
 
 At this point, most of my data had been collected. I had two 
 options for collecting the download SIZE, and DATE from each unique 
@@ -122,17 +122,15 @@ every page variation, or b) manually visit each page and collect
 
 <b>Part B - Sources and Run instructions </b>
 
-[Script 2: Scrapy web crawler to get Python Package information](./2_PythonPackages/dmoz_spider.py)
+[Script 2: Scrapy web crawler to get Python Package information](./2_PythonPackages/partB/partB/spiders/dmoz_spider.py)
 
-[Script 2: Compiled python file](./2_PythonPackages/dmoz_spider.pyc)
-
-[Script 3: JSON handler](./2_PythonPackages/jsonHandler.py) - process information from script 2 into text output useable in excel.
+[Script 3: JSON handler](./2_PythonPackages/Raw/jsonHandler.py) - process information from script 2 into text output useable in excel.
 
 <b>Script 2 Run instructions:</b>
 
 1) Navigate to: <i>partB > partB > spiders </i>
 
-2) Open command line and run <i>scrapy crawl PiPyIndex -o items.json</i>
+2) Open command line and run <i>scrapy crawl PiPyIndex -o items.json</i> (NOTE: Must execute from root 'partB' folder where 'scrapy.cfg' is located)
 
 3) Produces raw file: [items.json](./2_PythonPackages/Raw/items.json)
 
@@ -143,7 +141,7 @@ every page variation, or b) manually visit each page and collect
 
 2.1.1) [Default output] Execute <i>python jsonHandler.py >> out.txt</i>
 
-2.1.2) 'out.txt' will have two columns of data: Date (yyyy-mm-dd) and file size (Bytes). [Sample output available here](./2_PythonPackages/Raw/printOut_dateSizes.txt).
+2.1.2) 'out.txt' will have two columns of data: Date (yyyy-mm-dd) and file size (Bytes). [Sample output available here](./2_PythonPackages/Raw/printOut_datesSizes.txt).
 
 2.2.1) Open jsonHandler.py; Add a comment to line 129 (<i>print dateKey, sumSizeDateDict[dateKey]</i>) and remove comment from line 132 (<i> print_numUploads_dates(bigDateList)</i>)
 
@@ -163,7 +161,7 @@ section.
 Results
 ----------------------
 
-Woo, finally - We reached the result files and explanations for the source code/package inspection. This section includes all useful information return and discuss what they mean.
+Woo, finally - We reached the result files and explanations for the source code/package inspection. This section includes all useful information returned and discuss what they mean.
 
 ----------------------
 
@@ -177,18 +175,18 @@ Here i've include some benchmark screenshots (every 5 years) of the Gource video
 Figure 1: Python file structure in 1991; year 0
 
 ![Screenshot 2](./1_ActualSource/Images/GOURCE_hq_python_5yrs.png)
-Figure 1: Python file structure in 1996; year 5
+Figure 2: Python file structure in 1996; year 5
 
 ![Screenshot 3](./1_ActualSource/Images/GOURCE_hq_python_10yrs.png)
-Figure 1: Python file structure in 2001; year 10
+Figure 3: Python file structure in 2001; year 10
 
 ![Screenshot 4](./1_ActualSource/Images/GOURCE_hq_python_15yrs.png)
-Figure 1: Python file structure in 2006; year 15
+Figure 4: Python file structure in 2006; year 15
 
 ![Screenshot 5](./1_ActualSource/Images/GOURCE_hq_python_20yrs.png)
-Figure 1: Python file structure in 2011; year 20
+Figure 5: Python file structure in 2011; year 20
 
-** DISCUSSION OF THE GOURCE SCREENSHOTS
+** DISCUSSION OF THE GOURCE SCREENSHOTS; Texty text text text.
 
 
 GROUP 2 - RESULTS OF WEB SCRAPERS and DOCUMENTATION
