@@ -3,13 +3,26 @@
 
 First, a brief history of Python. After all, evolution has to start somewhere.
 
-Python was conceived in the late 1980's by Guido Van Rossum who at the time was working on the ABC (interpreted) language. Named after Monty Python, implementation was started in 1989 by and was being developed at the same time as many other languages such as Ruby and Perl. While the Benevolent Dictator for Life {BDFL} liked many of ABC's features, he had a number of gripes, especially when it came down to the limited extensibility of the language. Rossum wanted a better way to access conduct system administration tasks than the current way of writing C programs or shell scripts to access system kernels. All of this combined with a lot of free time led to the birth of Python.
+Python was conceived in the late 1980's by Guido Van Rossum who at the time was working on the ABC (interpreted) language. 
+Named after Monty Python, implementation was started in 1989 by and was being developed at the same time as many other 
+languages such as Ruby and Perl. While the Benevolent Dictator for Life {BDFL} liked many of ABC's features, he had a number 
+of gripes, especially when it came down to the limited extensibility of the language. Rossum wanted a better way to access 
+conduct system administration tasks than the current way of writing C programs or shell scripts to access system kernels. All
+of this combined with a lot of free time led to the birth of Python.
 
-Python was first posted on USENET in February 1991 but the first major version (1.0) wasn't released until January 1994. Furthermore, the most remarkable advances in Python weren't released until 16 October 2000 as version 2.0. This release had major features such as garbage collection and support for unicode. Version 2.0 also included a shift to a transparent, community-backed development process. Currently, there are 73 versions available for download and, while commonly viewed as a "scripting language," Python has now been realized as a general-purpose programming language.
+Python was first posted on USENET in February 1991 but the first major version (1.0) wasn't released until January 1994. 
+Furthermore, the most remarkable advances in Python weren't released until 16 October 2000 as version 2.0. This release had 
+major features such as garbage collection and support for unicode. Version 2.0 also included a shift to a transparent, 
+community-backed development process. Currently, there are 73 versions available for download and, while commonly viewed as a
+"scripting language," Python has now been realized as a general-purpose programming language.
 
-Python's transparency means that its core really has two major components: 1) The ACUTAL core as officially developed by Rossum's team and his succesors, and 2) its packages developed by the community. These packages can be easily installed as-needed onto a machine via <i>Pip</i> or <i>easy install</i>, and imported into a project using keyword <i>import</i>.
+Python's transparency means that its core really has two major components: 1) The ACUTAL core as officially developed by 
+Rossum's team and his succesors, and 2) its packages developed by the community. These packages can be easily installed 
+as-needed onto a machine via <i>Pip</i> or <i>easy install</i>, and imported into a project using keyword <i>import</i>.
 
-If you're reading this README file, you know that this is Methodology 1, studying the evolution of Python's complexity. It is split into two parts - Part A will investigate the officially developed source code, while Part B will investigate the community contributions, the Python packages.
+If you're reading this README file, you know that this is Methodology 1, studying the evolution of Python's complexity. It is
+split into two parts - Part A will investigate the officially developed source code, while Part B will investigate the 
+community contributions, the Python packages.
 
 In context of the <i>entire project</i>, this methodology took the most time to complete. However, M1 also yieled the most significant data asserting Python's overall evolution.
 
@@ -34,7 +47,8 @@ PART A - Steps for inspecting the Python Source code
 
 1.1. View video visualization of all the commits/changes made to the Python source code structure over time
     
-1.2. Infer some interesting information about the evolution of Python's structure such as the addition (or removal) of a significant modules, how constantly changes have been made, and trends such as number of developers, files added, etc., etc.
+1.2. Infer some interesting information about the evolution of Python's structure such as the addition (or removal) of a 
+significant modules, how constantly changes have been made, and trends such as number of developers, files added, etc., etc.
 
 Metrics: Benchmark screenshots
 
@@ -110,9 +124,12 @@ Import.io API's  are not availble to download as an executeable script. That is,
 account to collect their most recent information via link. Click [here](https://api.import.io/store/data/af4727c3-172c-4724-8aae-2a08c027aa91/_query?input/webpage/url=https%3A%2F%2Fwww.python.org%2Fdownloads%2F&_user=74da2cd9-e085-4c6c-ae74-816f39e485f3&_apikey=379mdmuoSESoXQu8NdDdK8K3jMl0VNhE7iMaRKc63%2Ft%2FettzhfVRbChxR78S%2BbsyOCq%2FwM8zlqaml%2FDu%2FVk7JQ%3D%3D) 
 for the raw data of my extractor. 
 
-From the Import.io application, I was able to get the (above) raw data into an excel by clicking "GET API", "TSV", and finally, "download as CSV" (useful data: Number, version, release date) ([Click to view Screenshot](./1_ActualSource/Images/ImportIO/3_importIO.png)).
+From the Import.io application, I was able to get the (above) raw data into an excel by clicking "GET API", "TSV", and 
+finally, "download as CSV" (useful data: Number, version, release date) ([Click to view Screenshot](./1_ActualSource/Images/ImportIO/3_importIO.png)).
 
-This API collects the first part of my data - the name, and URL. To gather the download size and date, I had two options: a) attempt to create several import.io scripts, each handling a different page format , or b) manually visit each page and collect data myself. Due to time constraints, I chose the latter. The run steps are listed below:
+This API collects the first part of my data - the name, and URL. To gather the download size and date, I had two options: a) 
+attempt to create several import.io scripts, each handling a different page format , or b) manually visit each page and 
+collect data myself. Due to time constraints, I chose the latter. The run steps are listed below:
 
 Manual parsing - remaining data
 
@@ -234,8 +251,8 @@ To start, I reviewed the PyPi index saved some statistics about the file sizes a
 
 Graph 2 visualizes results of script 2, the number of packages uploaded on each unique upload date. It intends to determine the speed/how often new packages are added or updated, which could then prove the "constant change" evolution criteria of many software projects.
 
-![Graph 2: Plotting the total SIZE of each upload against the verion's upload DATE](./2_PythonPackages/Images/chart_upDatevsNumberOf.png)
-Graph 2: placeholder
+![Graph 2: Plotting the number of packages uploaded per date](./2_PythonPackages/Images/chart_upDatevsNumberOf.png)
+Graph 2: Number of packages uploaded per date
 
 <b>NOTE:</b> Unfortunately, this data/graph is not as accurate or useful as I had hoped. I was under the impression that the 
 table included on each package's information page was the <i>history</i> of the package, listing every version, upload date, 
@@ -251,7 +268,7 @@ Python source code.
 Finally, script 3 produced graph 3. It is similar to graph 2, except where that it plots the total number of Bytes of each day (size vs time) instead of each release. 
 
 ![Graph 3](./2_PythonPackages/Images/chart_uploadSizesVSDate.png)
-Graph 3: placeholder
+Graph 3: Number of bytes uploaded per date
 
 I generated this because I wanted to see if, as the Python source code grew in size (Graph 1), if the sizes of packages also grew. However, this graph's data had the same issue as graph 2, where the parsed information is exclusively the most recent information, indicating only the number of actively updated packages.
 
@@ -259,13 +276,31 @@ I generated this because I wanted to see if, as the Python source code grew in s
 Discussion and Analysis
 ----------------------
 
+To start, I'd like to review which software laws I believe each part proved.
+
+Reference: [The Laws of Evolution: Page 11](http://flosshub.org/sites/flosshub.org/files/2013HerraizRRG_CSUR.pdf)
+
 <b>Part A</b>
 
-LAWS PROVEN:
+I believe the Gource visualization directly proved:
+
+Law I: Continuous change <i>(adapt or else become unsatisfactory)</i>
+
+Law II: Increasing complexity <i>(maintain or reduce)</i>
+
+Law VI: Continuous growth <i>(functionality must be continual enhanced)</i>
+
+Captured in the 5 screenshots, and certainly true if you watch the entire ~14 minute video, it is clear to see that there are constantly new additions (and removals) being made to the source structure - this is both law I and II, where the additions are progressive, and any readjustments are anti-regressive to ensure the files didn't get too complicated.
+
+The graphs produced from the index scrapings also prove continuous change, and the table of changes (per release) assert Law 
+VI, where it is clear to see that all changes are not exclusively maintenance - there are new features being consistently 
+added.
 
 <b>Part B</b>
 
-LAWS PROVEN
+As I mentioned in the results section, I had some issues with the data significance of part B (most recent information per package rather an entire history). It did however, give insight as to the number of packages being updated and re-released in time with the Python a version. The graphs show that packages also have to be updated and evolve, not just the source code.
+
+In addition to the three laws proved in part A, I believe part B also proves Law V: Conservation of familiarity. If packages were to fall behind and not longer work with the most recent Python releases, users would not have the same features they're used to. They could either adapt and forfeit their previous knowledge, and learn workarounds for their tasks, or continue working in an old version, and miss out on increased functionality.
 
 Tools
 ----------------------
