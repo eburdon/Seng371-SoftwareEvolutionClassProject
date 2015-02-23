@@ -7,12 +7,12 @@
 3) Navigate to <i>https://www.python.org/downloads/</i> within the application and turn extraction "on." The page will reload.
 
 4) Hover over (auto-highlight) the first column/row entry in the Python download information table 
-![Screenshot 1](./Images/ImportIO/1_importIO)
+![Screenshot 1](./Images/ImportIO/1_importIO.png)
 
 5) Select the "many rows" option in the alert box that appears.
 
 6) Confirm every version appears in the data table above the webpage; add a new column and select the hover/auto-highlight the first row entry (date) in the second column 
-![Screenshot 2](./Images/ImportIO/1_importIO)
+![Screenshot 2](./Images/ImportIO/1_importIO.png)
 
 7) Confirm every version has it's associated date in the table above; Repeat process to collect download URL data: create a new column, hover/auto-highlight first download link.
 
