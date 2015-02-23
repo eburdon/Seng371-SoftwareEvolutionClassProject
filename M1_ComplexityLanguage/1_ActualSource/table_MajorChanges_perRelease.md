@@ -31,7 +31,7 @@ Note: PEP means Python Enhancement Proposal. Officially used by Python to descri
 
 
 | 2.3 | 29/07/2003 |
-----------------
+--------|-----------
 |1|PEP 218: Standard Set Datatype |
 |2|PEP 255: Simple generators |
 |3|PEP 263: Source Code encodings |
