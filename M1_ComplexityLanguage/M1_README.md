@@ -1,7 +1,7 @@
 # Methodology 1
 # Complexity of the Python Language
 
-First, a brief history of Python. After all, every evolution project has to start somewhere.
+First, a brief history of Python. After all, evolution has to start somewhere.
 
 Python was conceived of in the late 1980's. Named after Monty Python, implementation was started in in 1989 by Guido Van Rossum (Benevolent Dictator for Life {BDFL}). It was being developed at the same time as many other languages, such as Ruby and Perl, who were also gaining popularity. Rossum was implementing the ABC (interpreted) language, and while learning lots about language design, had a number of "Gripes" with ABC. He liked a few things about it, especially its extensibility, but he still wanted something else. Furthermore, he wanted a better way to access system Kernels and other system administration tasks then the current processes of writing C programs or shell scripts. With all of that, Python was born.
 
@@ -25,7 +25,7 @@ The rest is up to you to find out. The point of this project is to find some int
 
 ----------------------
 
-PART A - Steps for inspecting the Python Source code
+PART A - Method/Steps for inspecting the Python Source code
 ----------------------
 
 1.0 VISUALIZATION
@@ -41,12 +41,14 @@ PART A - Steps for inspecting the Python Source code
 2.2. <b>Create a script</b> to parse each version name, upload date, and size of downloadable file
 
 2.3. Visualize the version date vs size via graphs; infer useful information
+
+2.4. Read some Python documentation to determine what were the key differences between versions - were new features added with each release?
   
 Metrics: Time, Number of uploads, Size of Download files
   
   
 
-PART B - Steps for inspecting the Python Package index
+PART B - Method/Steps for inspecting the Python Package index
 ----------------------
 
 1. Visit the [Python Package Index](https://pypi.python.org/pypi); investigate the number of packages available
@@ -58,110 +60,104 @@ PART B - Steps for inspecting the Python Package index
 
 Metrics: Number of Packages, number of upload dates, number of uploads per date, sizes of package downloads
 
+
 ----------------------
+
 
 Sources and generated Raw Files
 ----------------------
 
-<b>Part A</b>
+As a warning, this section is LARGE. First, I go over the sources and run commands for Part A. I had to create two versions of a script since the first one didn't work.  Next, I go over sources and run commands for Part B which had two parts, the crawler and output data handler, of which you can do two different things with it.  
+
+---------
+
+<b>Part A - Sources and Run instructions </b>
 
 [Gource Video - Evolution of Python](https://www.youtube.com/watch?v=cNBtDstOTmA)
 
-[Script 1: Source Download Date_Size parser](./1_ActualSource/downloadSizeParser.py)
+<b>Script 1 Version 1 Run instructions</b>
 
-<b>Script 1 Run instructions</b>: Getting Python release information via Selenium
+[Script 1 Source](./1_ActualSource/downloadSizeParser.py)
 
-1) Compile and Execute: <i>python downloadSizeParser.py</i>
+1) Compile and Execute with: <i>python downloadSizeParser.py</i>
 
-2) View returned data: Number of Python versions currently available for download, and full URL of every Python version download page.
+<b>NOTE:</b> This script was my first attempt at trying to get all Python download version names, URL, and download sizes. The version download size was not available from the original Python download page, meaning that each URL needed to be crawled. After parsing all URLs, I discovered that each page was in a different format, ranging from rich webpage to simple text. Due to time limitations and the difficulty of working with Selenium, I couldn't make a script to handle gathering the remaining information (release date, name, and size). Instead, I switched to Import.io to gather information for this part. 
 
-<b>NOTE:</b> This script was my first attempt at trying to get all Python download version names, urls, and download sizes. Not only was Selenium difficult to work with, and slow to execute (had to physically open firefox window), I realized it wouldn't be able to handle the different formatting of nearly <i>every</i> Python download page. Some pages were rich webpages with tables, others were simple and with only part of the information, and others were bascially simple text files.
-
-Because of this, I switched to Import.io to gather information for this part. Given that this was a new tool for me to learn, I've included information here on how I created my extraction script.
-
-<b>Script 1 (Version 2) Creation instructions:</b>
-
-1) Register for and download [Import.io](https://import.io/)
-
-2) Create a new extractor (see FOOTNOTE 1)
-
-3) Navigate to <i>https://www.python.org/downloads/</i> within the application and turn extraction "on." The page will reload.
-
-4) Hover over (auto-highlight) the first column/row entry in the Python download information table [Image 1](LINK)
-
-5) Select the "many rows" option in the alert box that appears
-
-6) Confirm every version appears in the data table above the webpage; add a new column and select the hover/auto-highlight the first row entry (date) in the second column [Image 2](LINK)
-
-7) Confirm every version has it's associated date in the table above; Repeat process to collect download URL data: create a new column, hover/auto-highlight first download link.
-
-8) Confirm all download links are now in the table.
-
-9) Press green "DONE" button in the upper right
-
-10) Name your API and press "Publish" to save the extracted data to your application
+This was the first time I've used the tool; instructions on how I created my script are included [here](GITLINK).
 
 <b>Script 1 (Version 2): Run instructions</b>
 
-1) From your application screen, open your API. Click "Query" to run the API and collect the most recent information.
+Import.io API's themselves are not availble to download as a script. That is, you can only execute them to collect their most recent imformation via link. Click [here](https://api.import.io/store/data/af4727c3-172c-4724-8aae-2a08c027aa91/_query?input/webpage/url=https%3A%2F%2Fwww.python.org%2Fdownloads%2F&_user=74da2cd9-e085-4c6c-ae74-816f39e485f3&_apikey=379mdmuoSESoXQu8NdDdK8K3jMl0VNhE7iMaRKc63%2Ft%2FettzhfVRbChxR78S%2BbsyOCq%2FwM8zlqaml%2FDu%2FVk7JQ%3D%3D) for the raw data of my extractor.
 
-2) Click "GET API", "TSV", and finally, "download as CSV" so that you can use the data in an excel spreadsheet (useful data: Number, version, release date).
+From the Import.io application howver, I was able to get my data into an excel file, detailed below:
 
-NOTE: At this point I had two options - attempt to create several scripts to handle every unique variation of the Python version download pages (same problem as before), or manually visit each page and collect the file download size, then include it in the excel file. Due to time limitations, I chose the latter.
+1) Clicked "GET API", "TSV", and finally, "download as CSV" (useful data: Number, version, release date).
 
-3) Visit each URL parsed from script 1, verision 1, and get the size of the <i>GZipped source tarball</i> download (bytes). Add to the excel file.
+At this point, most of my data had been collected - I had two options to collect the download size from each unique download page: 1) attempt to create several import.io scripts to handle every variation (same time-consuming problem as before), or 2) manually visit each page and collect the information. I chose the latter.
 
-13) Highlight the "Release Date" and your file size columns. From the main menu, go to <i>Insert > Chart > Line</i> to create a graph of the numerical results [Image 3](LINK).
+So, my steps to collect the URL download information and graph the information were run as follows:
 
-[FOOTNOTE 2] I first tried to create a crawler so that I could parse each URL, visit each URL, then collect the neccesary file download size from each page. Each page however, was formatted slightly different, and I couldn't train my import.io script for every variation.
+1) Visit each URL parsed from <i>script 1, verision 1</i>, and get the size of the <i>GZipped source tarball</i> download (Bytes). 
+
+2) Add to the excel file generationed from <i>script 1, verision 2 (Import.io API)</i>
+
+3) Highlight the "Release Date" and file size columns
+
+4) Go to <i>File Menu > Insert > Chart > Line</i>
 
 
 ----------------
 
-<b>Part B</b>
+<b>Part B - Sources and Run instructions </b>
 
 [Script 2: Scrapy web crawler to get Python Package information](./2_PythonPackages/dmoz_spider.py)
 
 [Script 2: Compiled python file](./2_PythonPackages/dmoz_spider.pyc)
 
-[Scrapy-generated 'resources' file](./2_PythonPackages/Resources)
+[Scrapy-generated 'resources' file](./2_PythonPackages/Resources) (re: script 2)
 
-* Script 2 Run instructions: getting Python packages information
 
-1) Merp merp merp.
+*** CHANGED -- UPDATE LINK LOCATION Script 2 Run instructions:
 
-2) Herp herpa derp
+1) Navigate to partB > partB > spiders
 
-3) Run command BLAH produces raw file: [items.json](./2_PythonPackages/Raw/items.json)
+2) Open command line and run <i>scrapy crawl PiPyIndex -o items.json</i>
 
-[Script 3: JSON handler - process information from script 2 into text output useable in excel](./2_PythonPackages/jsonHandler.py)
+3) Produces raw file: [items.json](./2_PythonPackages/Raw/items.json)
 
-* Script 3 Run instructions:
 
-1) Merp merp merp.
+[Script 3: JSON handler](./2_PythonPackages/jsonHandler.py) - process information from script 2 into text output useable in excel.
 
-2) Herp herpa derp
 
-3) THIS produces raw text output of dates and sizes: 
-[Package_dateVSsize](./2_PythonPackages/Raw/printOut_dateSizes.txt)
 
-4) THIS produces raw text output of number of uploads on each unique dates: 
-[Package_dateVSnumTimes](./2_PythonPackages/Raw/printOut_dateTimes.txt)
+Script 3 Run instructions:
 
-5) THIS produces text output of most and least common upload dates: 
-[Package_dateVSsize](./2_PythonPackages/Raw/printOut_leastMostCommon.txt)
+1) Navigate to directory "Raw"; Open command window. You have two output options below:
+
+2.1.1) [Default output] Execute <i>python jsonHandler.py >> out.txt</i>
+
+2.1.2) 'out.txt' will have two columns of data: Date (yyyy-mm-dd) and file size (Bytes). [Produced output available here](./2_PythonPackages/Raw/printOut_dateSizes.txt).
+
+2.2.1) Open jsonHandler.py; Add a comment to line 129 (<i>print dateKey, sumSizeDateDict[dateKey]</i>) and remove comment from line 132 (<i> print_numUploads_dates(bigDateList)</i>)
+
+2.2.2) Save and execute <i>python jsonHandler.py >> out.txt</i>; 'out.txt' will have two columns, Date (yyyy-mm-dd) and total number of Bytes uploaded that day. [Produced output available here](./2_PythonPackages/Raw/printOut_dateTimes.txt).
+
+3) Copy data into excel and sort into columns (separation indicated by the space)
 
 [Excel file 1: Tabularized data of download date and size of download](./2_PythonPackages/Raw_Processed/dates_downloadSizes.xlsx)
 
 [Excel file 2: Tabularized data of TOTAL package upload sizes per unique date](./2_PythonPackages/Raw_Processed/dates_downloads.xlsx)
 
+4) Graph data (included in the next section)
 
 ----------------------
 
 Results
 ----------------------
 
-Texty text text
+Woo, finally! We reached the result files for the source code/package inspection. Here I've included all useful information and discuss what they mean.
+
+----------------------
 
 <b>Part A</b>
 
@@ -184,17 +180,23 @@ Figure 1: Python file structure in 2006; year 15
 ![Screenshot 5](./1_ActualSource/Images/GOURCE_hq_python_20yrs.png)
 Figure 1: Python file structure in 2011; year 20
 
-DISCUSSION OF THE GOURCE SCREENSHOTS
+** DISCUSSION OF THE GOURCE SCREENSHOTS
 
-----------------
 
-GROUP 2 - RESULTS OF WEB SCRAPERS
+GROUP 2 - RESULTS OF WEB SCRAPERS and DOCUMENTATION
 
-TEXT TEXT: Trend graph: Python releases (dates) vs size of download - inreasing complexity?
+This first trend graph is from scraper 1, where we parsed the Python download pages for the release date of each version, and that version's download size.
 
 ![Graph 1](./1_ActualSource/Images/TrendGraph_PythonVersionSize.png)
 
 Graph 1: Trend graph of Python core source code download sizes
+
+** DISCUSSION OF: 
+
+Finally, click [here]() to see a LARGE table of the major changes in each feature.
+
+Combining all three sources of information, it is clear that Python the python source code has been evolved with respect to complexity (source files; Law ??) and feature additions (Law ??).
+
 
 <b>Part B</b>
 
