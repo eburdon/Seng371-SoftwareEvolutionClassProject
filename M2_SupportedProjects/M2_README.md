@@ -1,16 +1,19 @@
 # Methodology 2
 # Evolution of projects supported by Python
 
-Methodolgy two intends to examine the evolution of code bases/projects supported by Python. 
+This is Methodolgy 2, the study of the evolution of projects supported by Python. Don't worry - this process is much smaller than methodology 1. It's a single focus that tries to look at reasons and trends behind using Python in projects.
 
-My original intention was to search GitHub and SourceForge for two medium-sized programs that accomplished the same task. I 
-intended to parse some information such as lines of code (LOC), use Gource to compare the structure of the projects, and 
-gather other source-file metrics and attempt to extrapolate some useful data. However, I realized that this information would
-not contribute any insight into the evolution of Python, but simply just compare one language against another.
+The original intention with this methodology was to search GitHub and SourceForge for two medium-sized programs that 
+accomplished the same task. I planned to parse some information such as lines of code (LOC), use Gource to inspect the 
+changes in structures of the projects, then gather other source-file metrics. I later realized however, that this process 
+would have just compared the two software programs and languages, not offering any insight into the evolution of Python.
 
-As such, I shifted my search into trying to find how the number of Python projects over time and the types of projects
-developed over time. Unable to find resources to parse significant hard data from, I researched blog posts and trend graphs 
-about the use of Python. 
+As a result, I shifted my search into trying to find how the number of Python projects over time, and the types/functionality
+of python projects developed over time. 
+
+It's important to state that this section is lacking in hard numbers. It is much more research based, and I was not able to 
+find resources to parse any significant numbers from. I researched blog posts and looked for trend graphs about the use of 
+Python. 
 
 ----------
 
