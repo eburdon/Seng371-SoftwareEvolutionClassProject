@@ -1,20 +1,19 @@
 # Methodology 3
 # Evolution of the Python Community
 
-This final methodology attempts to investigate how the Python community has changed over the years, and if/how it has 
-influenced changes in the language.
+This is the final methodology which attempts to investigate how the Python community has evolved.
 
 ----------
 
 Steps
 -----
 
-1) Register for and explore the python community at https://www.python.org/community/ and try to collect information about fellow users.
+1) Register for and explore the python community at https://www.python.org/community/; Collect information about users.
 
 2) Determine how Python is used in the community - primarily as a teaching tool, prototyping, or end-result development? Are 
 there any community events featuring Python?
    
-3) Investigate teaching tools and programs (e.g., Hour of Code) - When did they include Python?
+3) Investigate teaching tools and programs (e.g., Hour of Code) - When did they start to include Python? Why?
 
 ----------
 
@@ -46,10 +45,16 @@ Sources
 Results
 ----------
 
-Texty text text
+After registering as a user on the official Python webpages, I was expecting to be able to see more information about other Python users such as age, occupation, and other generic statistics that I would have been able to parse to generate some numbers. Unfortunately, much like methodology 2, this information was not available. The Python community is a great resource for learning how to use the language, learning about other projects, receiving updates, and general chat, but there are no public profiles (as I was expecting). Unfortunately, this means that the best result I have for determining who uses Python is fully reliant on readings and blog posts.
 
-There is an official Python conference, PyCon, every year. While several are held in a variety of countries, I chose to look 
-at the numbers for the most official conference that started in the United States, and is now hosted in Canada. 
+From the history of Python, I believe it is clear that the original users were technically-skilled people currently working in industry. However, as evidenced at UVic, and more recently with coding campaigns such as 'Hour of Code,' the user base has expanded to include academics and the general public.
+
+While the user base is not explicitly clear, it is easy to see how Python is used in the community. First, let's look at how it is used among industry professionals.
+
+* Python in industry
+
+There is an official Python conference, PyCon, held every year. While there are technically several conceferences held in a
+large number of of countries, I chose to look at the numbers for the most official conference which started in the United States. It is now hosted in Montreal, Canada. 
 
 Here are the attendance numbers and locations:
 
@@ -68,9 +73,44 @@ Here are the attendance numbers and locations:
 | 2013 | Santa Clara, CA  | 2500 |
 | 2014 | Montreal, QC     | 2500 |
 
-Online teaching platforms that include Python:
 
-Hour of Code - Created January 2013; Campaign launched December 2013 during Computer Science Education week. As of 20/02/2015, HoC has served 102,034,915 students.
+* Python in academia and public life:
+
+Unfortunately, I wasn't able to get any hard numbers about when Python was included in official school curriculum in public, 
+private, or post-secondary insitutions (such as UVic), only anecdotal evidence about when it was included (a few years back),
+why (the students revolted), and how successful it was. There are stories about the increasing use of Python in the 
+classroom.
+
+Earlier than post-secondary however, there is evidence that Python is starting to be commonly taught in elementary, middle, 
+and high-school levels as a first programming language! This may be a result of the hugely successful 'Hour of Code' campaign
+launched by Code.com, as well as other online programming courses promoting the use of Python as a first language. This
+campaign has highlighted the wide number of online platforms availble for learning programming, and especially for learning Python.
+
+Here are some numbers : <b>Hour of Code</b>
+* Created January 2013
+* Campaign launched December 2013 (during Computer Science Education week) 
+* As of 20/02/2015, 102,034,915 students served
+
+No graph is needed to highlight the movement of Python into mainstream general public - any generic Google search related to 
+this topic will hail Python as a great learning language, quickly gaining popularity across all age gropus.
+
+Some of the learning platorms that are teaching Python include:
+
+<b> codecademy </b> 
+   * New York City, United states
+   * Founded 2011
+   * [Available Python courses](http://www.codecademy.com/en/tracks/python)
+
+<b> Grok <b> 
+   * (exclusive focus on Python and Logo)
+   * Sydney, Austrailia
+   * Founded 2013
+   * [Available at](https://groklearning.com/csedweek/)
+
+Given how recent these campaigns and media movements towards programming and Python, I didn't try to collect any statistics -
+it is too soon to be seeing any signifanct impacts on the evolution of Python, except for the fact that the Python community 
+is growing, and now has a set of young learners who may continue to use Python in the future, potentially driving new 
+features and changes into the language.
 
 
 ----------
@@ -118,3 +158,10 @@ Future Work
 ----------
 
 Texty text text
+
+
+
+Other Sources / References / Readings
+--------------------------------------
+
+
