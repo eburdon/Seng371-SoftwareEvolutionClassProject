@@ -361,3 +361,12 @@ In the future I could:
 * Create a script for each Python package download page variation; automate the data collection process
 
 *  Parse the Python release notes/documentation to automatically parse information such as: number of fixes, what's changed, etc.
+
+
+---------------------
+
+Other Sources / References / Readings
+-------------------------------------
+
+[Python FAQ](docs.python/org/2/faq/general.html#why-was-python-created-in-the-first-place)
+
