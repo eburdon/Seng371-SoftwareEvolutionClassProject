@@ -121,21 +121,21 @@ Instead, I switched to a web-based extraction tool, Import.io. This was the firs
 <b>Script 1 (Version 2): Run instructions</b>
 
 Import.io API's  are not availble to download as an executeable script. That is, you can only run them online from the owner
-account to collect their most recent information via link. Click [here](https://api.import.io/store/data/af4727c3-172c-4724-8aae-2a08c027aa91/_query?input/webpage/url=https%3A%2F%2Fwww.python.org%2Fdownloads%2F&_user=74da2cd9-e085-4c6c-ae74-816f39e485f3&_apikey=379mdmuoSESoXQu8NdDdK8K3jMl0VNhE7iMaRKc63%2Ft%2FettzhfVRbChxR78S%2BbsyOCq%2FwM8zlqaml%2FDu%2FVk7JQ%3D%3D) 
+account to collect their most recent information. Click [here](https://api.import.io/store/data/af4727c3-172c-4724-8aae-2a08c027aa91/_query?input/webpage/url=https%3A%2F%2Fwww.python.org%2Fdownloads%2F&_user=74da2cd9-e085-4c6c-ae74-816f39e485f3&_apikey=379mdmuoSESoXQu8NdDdK8K3jMl0VNhE7iMaRKc63%2Ft%2FettzhfVRbChxR78S%2BbsyOCq%2FwM8zlqaml%2FDu%2FVk7JQ%3D%3D) 
 for the raw data of my extractor. 
 
 From the Import.io application, I was able to get the (above) raw data into an excel by clicking "GET API", "TSV", and 
 finally, "download as CSV" (useful data: Number, version, release date) ([Click to view Screenshot](./1_ActualSource/Images/ImportIO/3_importIO.png)).
 
 This API collects the first part of my data - the name, and URL. To gather the download size and date, I had two options: a) 
-attempt to create several import.io scripts, each handling a different page format , or b) manually visit each page and 
+attempt to create several Import.io scripts, each handling a different page format , or b) manually visit each page and 
 collect data myself. Due to time constraints, I chose the latter. The run steps are listed below:
 
 Manual parsing - remaining data
 
-2) Visit each URL parsed from <i>script 1, verision 1</i>, and get the size of the <i>GZipped source tarball</i> download (Bytes). 
+2) Visit each URL parsed from <i>script 1, version 1</i>, and get the size of the <i>GZipped source tarball</i> download (Bytes). 
 
-3) Add data to the excel file generated from <i>script 1, verision</i>
+3) Add data to the excel file generated from <i>script 1, version 1</i>
 
 4) Highlight the "Release Date" and file size columns
 
@@ -219,7 +219,7 @@ Figure 5: Python file structure in 2011; year 20
 
 * 2.0 WEB SCRAPERS: DOWNLOADS and DOCUMENTATION
 
-This first trend graph is from scraper 1, where we parsed the every Python version's download page for their release date and download size, then plotten them against eachother.
+This first trend graph is from scraper 1, where we parsed the every Python version's download page for their release date and download size, then plotted them against eachother.
 
 ![Graph 1](./1_ActualSource/Images/TrendGraph_PythonVersionSize.png)
 
@@ -231,7 +231,7 @@ Graph 1: Trend graph of Python core version download sizes
 
 The Gource video and graph - separately and together - certainly confirm that Python has certainly increased in size. But has functionality also increased?
 
-As a final result for Part A, the major changes between each (major) Python release has been tabularized [here](../M1_ComplexityLanguage/1_ActualSource/table_MajorChanges_perRelease) (12 tables total, versions 2.0 - 3.4).
+As a final result for Part A, the major changes between each (major) Python release has been tabularized [here](../M1_ComplexityLanguage/1_ActualSource/table_MajorChanges_perRelease.md) (12 tables total, versions 2.0 - 3.4).
 
 As an overall result, while the number of new features is not always growing, the new features are always an improvement on the previous system, and thus adding new functionality.
 
