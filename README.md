@@ -21,7 +21,7 @@ COPYRIGHT:  http://creativecommons.org/licenses/by-nc-nd/4.0/
   
 ------------------------------------------
 
-This Repo contains:
+This Repo Contains:
 -------------------
 * My Evolutionary question
 * Description of my methodologies using to answer my question (overview and specific)
@@ -32,7 +32,7 @@ This Repo contains:
 ------------------------------------------
 
 
-The evolution of a language
+The Evolution of a Language
 ------------------------------------------
 
 In this class so far, we have been discussing the evolution of ultra-large scale (ULS) projects and how they have evolved. We've looked at some different code bases, have read a few essays by Fred Brooks in his book "Mythical Man Month", and have learnt about the 8 laws of evolution. For project 1, each student has been asked to build some sort of "tool" and study a code base in order to answer questions about Software Evolution.
@@ -104,11 +104,16 @@ community are relatively recent, and its effects have not yet been noticed.
 
 Results
 ------------------------------------------
-Overarching discussion; include some key visualization
 
-How is my project question answered?
+This project successfully asserted a number of Software Engineering laws by examining each part that form a language - its 
+source code (internal and open source), supported platforms, and community. The three parts together have raised Python to a 
+higher state and therefore demonstrate the evolution of the Python programming language.
 
-Future work?
+Future Work
+------------
+
+More automation could be done during data collection. Read the "Future Work" section in each README file for more information 
+related to that task.
 
 
 Project Management
