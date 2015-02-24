@@ -49,7 +49,13 @@ I have split my question into three ideas, each of which I believe contributes t
 
 3. Community (sociotechnical environment)
 
-They each define some smaller questions their results hope to answer. This README file only contains a brief overview of each methodology - please visit folders M1\_ComplexityLanguage, M2\_SupportedProjects, and M3\_Community for step-by-step explanations of the exact steps I took in each one. This will include any source files, compile/run instructions, a list of links to each tool I used, a list of metrics, and a list of sources.
+They each define some smaller questions their results hope to answer. 
+
+This README file only contains a brief overview of each methodology. This entire project is intended to be reviewed in a report-syle format. Please visit folders M1\_ComplexityLanguage, M2\_SupportedProjects, and M3\_Community <i>in order</i> and read their README's (links provided in the next section). 
+
+Each README includes explanations of the exact steps I took in each stage, as well as source files, compile/run instructions,
+a list of links to each tool I used, a list of metrics, and a list of sources. They also include "Results" and "Discussion" 
+sections reviewing the signifance of discovered data.
 
 Overview of Methodologies
 ------------------------------------------
@@ -57,14 +63,16 @@ Overview of Methodologies
 This section gives a brief overview of each methodology. Detailed steps, results (such as RAW files and some visualizations),
 analysis and discussion, as well as future work are discussed only in the appropriate readme file.
 
-
 <b>Complexity of the Language - <i>Source code</i></b> 
 
 >How has Python grown? Can we determine if it has evolved into a more complex core?
 
 [Methodology 1 README](./M1_ComplexityLanguage/M1_README.md)
 
-SUMMARIZING PARAGRAPH
+Methodology 1 is split into two parts to match the Python construct - Part A examines the offical source code via 
+visualization and version statistics, while Part B examines open-source contributions from the community in the Python 
+Packages. Each part required at least one script to automate data collection. The results of each part, and of the entire 
+methodology successfully asserted a number of software evolution laws.
 
 ------------------------------------------
 
@@ -75,7 +83,9 @@ before?
 
 [Methodology 2 README](./M2_SupportedProjects/M2_README.md)
 
-SUMMARIZING PARAGRAPH
+Methodology 2 investigates how Python has been used. It looks into why Python may have been chosen over other dynamic or 
+scripted languages and finds a number of examples showing the range of projects Python is currently able to support. While 
+not returning as many numerical results as methodology 1, the results conclude the truth of a few software evolution laws. 
 
 ------------------------------------------
 
@@ -85,7 +95,9 @@ SUMMARIZING PARAGRAPH
 
 [Methodology 3 README](./M3_Community/M3_README.md)
 
-SUMMARIZING PARAGRAPH
+The final methodology pursues the ways in which Python's socio-technical environment - the community formed by its developers
+and users - are evolving. It relies on a number of anecdotal evidence which may be due to the fact that all changes to the 
+community are relatively recent, and its effects have not yet been noticed.
 
 ------------------------------------------
 
@@ -99,18 +111,28 @@ How is my project question answered?
 Future work?
 
 
-Project Management - self-directed project
+Project Management
 ------------------------------------------
 
-* Tools used:
+This was a self-directed project. I planned and met all milestones on my own. Helpful comments and tool suggestions were received from the SEng 371 class during labs during the course of the project.
 
-Trello: Project planning tool that organizes tasks into cards on a board.
+----------------
 
-Availble at: [trello.com](https://trello.com/)
+Tools used:
+
+* [Trello](https://trello.com/): Project planning tool that organizes tasks into cards on a board.
+
+* Microsoft Effice - Excel
+
+* [Import.io](https://import.io/)
+
+* Gource
+
+And others... all tools listed in the relevant README file.
 
 ------------------------------------------
 
-* Milestones:
+Milestones:
 
 January 30 - Finalize questions, methodologies, and tools - make sure they're reasonable!
 
@@ -126,14 +148,17 @@ February 22 - Ensure all data is compiled into repository. Prepare repo for subm
 
 ------------------------------------------
 
-* Some obstacles
+Some obstacles:
 
-The biggest obstacle I had was that the data I wanted to collect was not neccesarily in the format I wanted. For example,
-for Part 2 - community, I wanted to collect from the python community website the number of registered user, and hopefully 
-parse some sort of information about who they are - academics (students/teachers), professionals, or hobbyists/general 
-public. This information is not publicly available. As such, this methodology does not neccessarily have any hard number 
-results, and instead forced me to rely on anecdotal evidence such as blog and forum postings, and infer my results from 
-there.
+Each README section includes an "Obstacles" section at the end listing the biggest problem faced while working on that task. 
+In hindsight however, the biggest problem I faced was consistently the fact that the data I wanted to collect was either not 
+available or not in the format I wanted. Collecting it would have either taken more time than I could dedicate to this 
+project or simply not possible.
 
-In addition, while I started this project off strong (effectively sticking to the timeline), other class assignments, lab 
-work, and midterms took priority over research, leading to new time constraints. Sorry.
+Furthermore, while I started this project off strong and effectively stayed with the timeline, other class assignments, lab 
+work, midterms, and [BattleSnakes](https://github.com/sendwithus/battlesnake) took priority over research.
+
+References
+------------------------------------------
+
+[SEng 371 Course GitHub Repository](https://github.com/ycoady/UVic-Software-Evolution)
