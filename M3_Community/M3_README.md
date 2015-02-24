@@ -82,20 +82,20 @@ Here are the attendance numbers and locations:
 | 2014 | Montreal, QC     | 2500 |
 
 
-The converence has been consistently successful, and as a result, the number of people attending Pycon is increasing. These numbers indicate that Python in evolving in the sense that it is continually growing.
+The converence has been consistently successful, and as a result, the number of people attending Pycon is increasing.
+
 
 * Python in academia and public life:
 
-Unfortunately, I wasn't able to get any hard statistics about when Python was included in official school curriculum in 
-public, or how many insitutions offer courses in it, in any of private, or post-secondary school. For UVic, I could only find
-anecdotal evidence about when it was included (a few years back), why (the students revolted), and how successful it was. 
-Similarly, for other schools, I can only seem to find the occasional forum post about the increased use of Python in their 
-classroom, or how it's been used "for a few years."
+Unfortunately, I wasn't able to get any hard statistics about when Python was included in any official school curriculums. 
+For UVic, I could only find anecdotal evidence about when it was included (a few years back), why (the students revolted), 
+and how successful it was (it's still being taught). Similarly, for other schools, I can only seem to find the occasional 
+forum post about the increased use of Python in their classroom, or how it's been used "for a few years."
 
-As such, for more concrete information. I looked toward the hugely successful 'Hour of Code' campaign
-launched by Code.com, aiming to get programming concepts, some via the Python, into classroom as young as kindergartens! This
-campaign has highlighted the wide number of online platforms availble for learning programming, and especially for learning 
-Python.
+Therefore, for more concrete information I looked toward the hugely successful 'Hour of Code' campaign
+launched by Code.com, aiming to get programming concepts (some via the Python language) into classrooms featuring as young as
+5! This campaign has highlighted the wide number of online platforms availble for learning programming, and especially for 
+learning Python.
 
 Here are some numbers : <b>Hour of Code</b>
 * Created January 2013
@@ -112,18 +112,18 @@ Some of the learning platorms who participated in Hour of Code which are also te
 <b> codecademy </b> 
    * New York City, United states
    * Founded 2011
-   * [Available Python courses](http://www.codecademy.com/en/tracks/python)
+   * [Available Python courses here](http://www.codecademy.com/en/tracks/python)
 
 <b> Grok <b> 
    * (exclusive focus on Python and Logo)
    * Sydney, Austrailia
    * Founded 2013
-   * [Available at](https://groklearning.com/csedweek/)
+   * [Available here](https://groklearning.com/csedweek/)
 
-Given how recent these campaigns and media movements towards programming and Python, I didn't try to collect any statistics -
-it is too soon to be seeing any signifanct impacts on the evolution of Python, except for the fact that the Python community 
-is growing, and now has a set of young learners who may continue to use Python in the future, potentially driving new 
-features and changes into the language.
+Given how recent these campaigns and media movements towards programming and Python are, I didn't try to collect any 
+statistics - it is too soon to be seeing any signifanct impacts on the evolution of Python, except for the fact that the 
+Python community is growing, and now has a set of young learners who may continue to use Python in the future, potentially 
+driving new features and changes into the language.
 
 
 ----------
